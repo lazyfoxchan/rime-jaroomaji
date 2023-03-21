@@ -175,7 +175,7 @@ def remove_duplicates(arg_list):
             tmp_dict[key] = input_list_line[2]
             continue
         # 登録されている既存のキーよりスコアが大きかったら更新する
-        if tmp_dict[key] < input_list_line[2]:
+        if int(tmp_dict[key]) < int(input_list_line[2]):
             tmp_dict[key] = input_list_line[2]
 
     # 引数のリストと同じ順序のリスト作成
