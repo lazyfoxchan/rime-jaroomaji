@@ -1,0 +1,38 @@
+name: AutoUpdateJMDict
+
+on:
+  # 毎週木曜日20時30分に実行(日本時間)
+  schedule:
+    - cron: '30 11 * * 4'
+  ## 手動実行用
+  workflow_dispatch:
+
+# ジョブ設定
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # チェックアウト
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Pythonインストール
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.11
+      # pip
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jaconv
+      # Pythonスクリプト実行
+      - name: Run ConvertJmDict.py
+        run: python dict_tools/ConvertJmDict.py
+      # プッシュ
+      - name: Push (If no changes will fail)
+        run: |
+          git config user.name  "actions-user"
+          git config user.email "action@github.com"
+          git add jaroomaji.jmdict.dict.yaml
+          git commit -m "周次自動更新: JMDict"
+          git push origin master

@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: jaroomaji
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - jaroomaji.user
+  - jaroomaji.kana_kigou
+  - jaroomaji.mozc
+  - jaroomaji.jmdict
+  - jaroomaji.mozcemoji
+  - jaroomaji.kanjidic2
+# - jaroomaji.neologd  # TODO neologdから変換した辞書を作成する
+...

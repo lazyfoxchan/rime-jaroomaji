@@ -1,0 +1,49 @@
+name: AutoUpdate (If no changes will fail)
+
+on:
+  # 毎年4月1日0時に実行(日本時間)
+  schedule:
+    - cron: '0 15 31 3 *'
+  ## 手動実行用
+  workflow_dispatch:
+
+# ジョブ設定
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # チェックアウト
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Pythonインストール
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.11
+      # pip
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jaconv
+      # ConvertKanjiDic2.py実行
+      - name: Run ConvertKanjiDic2.py
+        run: python dict_tools/ConvertKanjiDic2.py
+      # ConvertMozcDict.py実行
+      - name: Run ConvertMozcDict.py
+        run: python dict_tools/ConvertMozcDict.py
+      # ConvertMozcEmojiDict.py実行
+      - name: Run ConvertMozcEmojiDict.py
+        run: python dict_tools/ConvertMozcEmojiDict.py
+      # CreateUserDict.py実行
+      - name: Run CreateUserDict.py
+        run: |
+          cp dict_tools/user_dict.tsv ./
+          python dict_tools/CreateUserDict.py
+      # プッシュ(変更がなければ失敗)
+      - name: Push (If no changes will fail)
+        run: |
+          git config user.name  "actions-user"
+          git config user.email "action@github.com"
+          git add jaroomaji.kanjidic2.dict.yaml jaroomaji.mozc.dict.yaml jaroomaji.mozcemoji.dict.yaml jaroomaji.user.dict.yaml
+          git commit -m "年次自動更新"
+          git push origin master

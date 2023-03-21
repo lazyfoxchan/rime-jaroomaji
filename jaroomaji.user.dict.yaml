@@ -1,0 +1,38 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# ユーザー辞書ファイル
+# CreateUserDict.pyを使用すると簡単にこのファイルを作成できます
+#
+
+---
+name: jaroomaji.user
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+RIME	ra i mu	1
+VTuber	bu i tyu - ba -	1
+VTuber	bu i ti xyu - ba -	1
+キズナアイ	ki zu na a i	88888
+キズナアイ	KI ZU NA A I	88888
+東雪蓮	a zu ma se re nn	88888
+戸定梨香	to zyo u ri nn ka	88888
+戸定梨香	to zi xyo u ri nn ka	88888
+桐生ココ	ki ryu u ko ko	88888
+桐生ココ	ki ri xyu u ko ko	88888
+リブドル	ri bu do ru	88888
+リブドル	RI BU DO RU	88888
+李清歌	ri se i ka	88888
+神宮司玉藻	zi nn gu u zi ta ma mo	88888
+ローズ・バレット	ro - zu ba re xtu to	88888
+カティア・ウラーノヴァ	ka thi a u ra - no va	88888
+カティア・ウラーノヴァ	ka te xi a u ra - no vu xa	88888
+イザベラ・ホリー	i za be ra ho ri -	88888
+モーシィ	mo - syi	88888
+モーシィ	mo - si xi	88888
+モーシィ	MO - SYI	88888
+モーシィ	MO - SI XI	88888
+hanser	ha nn sa -	88888
+泠鳶yousa	re i e nn yo u sa	88888
