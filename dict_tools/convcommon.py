@@ -1,5 +1,6 @@
 # License: Apache License 2.0
 # Author: lazy fox chan
+import re
 import convrules
 
 
@@ -20,7 +21,7 @@ def add_half_with_latin(arg_list):
         is_exist_uppercase = False
         lower_case_latin = word[0]
         # 単語に全角ラテン文字が含まれていたら、半角ラテン文字に変換した単語を作成する
-        for ConvertRule in convrules.LATIN_CONVERT_RULES:
+        for ConvertRule in convrules.LATIN_CONVERT_PATTERN:
             if ConvertRule[0] in lower_case_latin:
                 lower_case_latin = lower_case_latin.replace(ConvertRule[0], ConvertRule[1])
                 is_exist_uppercase = True
@@ -52,7 +53,7 @@ def add_full_with_latin(arg_list):
         is_exist_lowercase = False
         upper_case_latin = word[0]
         # 単語に半角ラテン文字が含まれていたら、全角ラテン文字に変換した単語を作成する
-        for ConvertRule in convrules.LATIN_CONVERT_RULES:
+        for ConvertRule in convrules.LATIN_CONVERT_PATTERN:
             if ConvertRule[1] in upper_case_latin:
                 upper_case_latin = upper_case_latin.replace(ConvertRule[1], ConvertRule[0])
                 is_exist_lowercase = True
@@ -92,62 +93,51 @@ def hiralist2roomalist(arg_list):
     """リスト内のひらがなの読みをrime-jaroomaji用のローマ字に変換する。
 
     適応する変換規則：
+      ・読みが無い場合 → その単語は無視する
       ・読みにひらがな以外が含まれていた場合 → その単語は無視する
-      ・読みが伸ばし棒1個のみ → その単語は無視する
-      ・「りゅ」のような拗音が含まれている かつ カタカナのみの単語 → パターン1～4全て
-      ・カタカナのみの単語 → パターン1とパターン3
-      ・「りゅ」のような拗音が含まれている → パターン1とパターン2
-      ・それ以外 → パターン1
+      ・読みが伸ばし棒一個のみ → その単語は無視する
+      ・拗音 → 一度に入力するパターンとニ文字に別けて入力するパターンを追加する ex. 「りゅ」→「ryu」、「ri xu」
+      ・カタカナのみの単語 → 大文字化したローマ字も追加する
 
     Args:
         arg_list (list): [[単語, ひらがなの読み, スコア], [単語, ひらがなの読み, スコア]...]
     Returns:
         list: [[単語, ローマ字の読み, スコア], [単語, ローマ字の読み, スコア]...]
     """
-    def hira2rooma(yomi, convert_rules):
-        for convert_rule in convert_rules:
-            yomi = yomi.replace(convert_rule[0], convert_rule[1])
-        return yomi[:-1]  # 最後の空白は不要なので消す
-
     return_list = []
 
     for input_list_line in arg_list:
-        is_exist_youon = False
-        is_only_katakana = False
+        # 読みが無い場合、無視する
+        if input_list_line[1] == "":
+            continue
         # 読みにひらがな以外が読みに含まれている場合、無視する
-        tmp_str = input_list_line[1]
-        for hiragana in convrules.HIRAGANA_LIST:
-            tmp_str = tmp_str.replace(hiragana, "")
-        if tmp_str:
+        if bool(re.search(convrules.NOT_HIRAGANA_REGEXP, input_list_line[1])):
             continue
         # 読みが伸ばし棒1個のみである場合、無視する
         if input_list_line[1] == "ー":
             continue
-        # 拗音が含まれているか判定
-        for youon in convrules.YOUON_LIST:
-            if youon in input_list_line[1]:
-                is_exist_youon = True
-                break
-        # カタカナのみの単語か判定
-        tmp_str = input_list_line[0]
-        for katakana in convrules.KATAKANA_LIST:
-            tmp_str = tmp_str.replace(katakana, "")
-        if not tmp_str:
-            is_only_katakana = True
-        # 読みをローマ字に変換して新しいリストに保存
-        if is_exist_youon and is_only_katakana:
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_1), input_list_line[2]])
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_2), input_list_line[2]])
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_3), input_list_line[2]])
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_4), input_list_line[2]])
-        if not is_exist_youon and is_only_katakana:
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_1), input_list_line[2]])
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_3), input_list_line[2]])
-        if is_exist_youon and not is_only_katakana:
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_1), input_list_line[2]])
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_2), input_list_line[2]])
-        if not is_exist_youon and not is_only_katakana:
-            return_list.append([input_list_line[0], hira2rooma(input_list_line[1], convrules.CONVERT_PATTERN_1), input_list_line[2]])
+
+        # 変換フォーズ1  ex. 「あ」→「a」、「りゅ」→「ryu」
+        yomi = input_list_line[1]
+        for convert_rule in convrules.CONVERT_PATTERN_1:
+            yomi = yomi.replace(convert_rule[0], convert_rule[1])
+        yomi = yomi[:-1]
+
+        # 変換フォーズ2  ex. 「ryu」→「ryu」、「ri xu」
+        results = [""]
+        for char in yomi.split(" "):
+            new_results = []
+            for result in results:  # 一音節ずつ全てのパターンを追加する
+                new_results.append(result + char + " ")
+                if not convrules.CONVERT_PATTERN_2[char] == char:
+                    new_results.append(result + convrules.CONVERT_PATTERN_2[char] + " ")
+            results = new_results
+
+        # 変換した結果をリストに追加する
+        for result in results:
+            return_list.append([input_list_line[0], result[:-1], input_list_line[2]])
+            if not bool(re.search(convrules.NOT_KATAKANA_REGEXP, input_list_line[0])):  # カタカナのみの単語の場合
+                return_list.append([input_list_line[0], result[:-1].upper(), input_list_line[2]])
 
     return return_list
 

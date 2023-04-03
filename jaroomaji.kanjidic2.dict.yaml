@@ -14916,6 +14916,8 @@ use_preset_vocabulary: false
 猩	se i	8000
 猩	so u	8000
 猩	syo u zyo u	8888
+猩	syo u zi xyo u	8888
+猩	si xyo u zyo u	8888
 猩	si xyo u zi xyo u	8888
 猥	wa i	8000
 猥ら	mi da ra	8888
@@ -24152,6 +24154,8 @@ use_preset_vocabulary: false
 宼する	a da su ru	8888
 寀	sa i	8000
 寀	ti gyo u syo	8888
+寀	ti gyo u si xyo	8888
+寀	ti gi xyo u syo	8888
 寀	ti gi xyo u si xyo	8888
 寀	tu ka sa	8888
 寁	sa nn	8000
@@ -28605,6 +28609,8 @@ use_preset_vocabulary: false
 滎	gi xyo u	8000
 滎	e i	8000
 滎	tyo ro tyo ro	8888
+滎	tyo ro ti xyo ro	8888
+滎	ti xyo ro tyo ro	8888
 滎	ti xyo ro ti xyo ro	8888
 滏	hu	8000
 滫	syu u	8000

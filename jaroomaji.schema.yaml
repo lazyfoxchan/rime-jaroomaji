@@ -69,8 +69,8 @@ speller:
     - "derive/-/l/"
     - "derive/-/L/"
     # あ行
-    - "derive/i/yi/"
-    - "derive/u/wu/"
+    - "derive/^i/yi/"
+    - "derive/^u/wu/"
     - "derive/u/whu/"
     - "derive/whi/wi/"
     - "derive/whe/we/"
@@ -150,8 +150,8 @@ speller:
     # わ行
     - "abbrev/nn/n/"
     # ア行
-    - "derive/I/YI/"
-    - "derive/U/WU/"
+    - "derive/^I/YI/"
+    - "derive/^U/WU/"
     - "derive/U/WHU/"
     - "derive/WHI/WI/"
     - "derive/WHE/WE/"

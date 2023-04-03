@@ -111,7 +111,7 @@ use_preset_vocabulary: false
 ちょ	tyo	80000
 つぁ	tsa	80000
 つぃ	tsi	80000
-つぇ	the	80000
+つぇ	tse	80000
 つぉ	tso	80000
 てゃ	tha	80000
 てぃ	thi	80000
@@ -139,8 +139,8 @@ use_preset_vocabulary: false
 でぇ	dhe	80000
 でょ	dho	80000
 どぁ	dwa	80000
-どぃ	dwe	80000
-どぅ	dwo	80000
+どぃ	dwi	80000
+どぅ	dwu	80000
 どぇ	dwe	80000
 どぉ	dwo	80000
 っ	xtu	80000
@@ -329,7 +329,7 @@ use_preset_vocabulary: false
 チョ	tyo	79999
 ツァ	tsa	79999
 ツィ	tsi	79999
-ツェ	the	79999
+ツェ	tse	79999
 ツォ	tso	79999
 テャ	tha	79999
 ティ	thi	79999
@@ -357,8 +357,8 @@ use_preset_vocabulary: false
 デェ	dhe	79999
 デョ	dho	79999
 ドァ	dwa	79999
-ドィ	dwe	79999
-ドゥ	dwo	79999
+ドィ	dwi	79999
+ドゥ	dwu	79999
 ドェ	dwe	79999
 ドォ	dwo	79999
 ッ	xtu	79999
@@ -547,7 +547,7 @@ use_preset_vocabulary: false
 チョ	TYO	80000
 ツァ	TSA	80000
 ツィ	TSI	80000
-ツェ	THE	80000
+ツェ	TSE	80000
 ツォ	TSO	80000
 テャ	THA	80000
 ティ	THI	80000
@@ -575,8 +575,8 @@ use_preset_vocabulary: false
 デェ	DHE	80000
 デョ	DHO	80000
 ドァ	DWA	80000
-ドィ	DWE	80000
-ドゥ	DWO	80000
+ドィ	DWI	80000
+ドゥ	DWU	80000
 ドェ	DWE	80000
 ドォ	DWO	80000
 ッ	XTU	80000
