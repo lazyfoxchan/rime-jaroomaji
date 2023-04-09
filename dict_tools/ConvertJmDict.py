@@ -112,8 +112,7 @@ def main():
     input_file = open(JMDICT_FILE_NAME, "r", encoding="utf-8")
     for line in input_file:
         if "JMdict created:" in line:
-            dict_version = line.replace("<!-- JMdict created: ", "")
-            dict_version = dict_version.replace(" -->\n", "")
+            dict_version = line.replace("<!-- JMdict created: ", "").replace(" -->\n", "")
             break
     input_file.close()
     print("step 1/6 ファイル読み込み ： 完了")

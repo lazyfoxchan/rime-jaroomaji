@@ -19,15 +19,15 @@ def add_half_with_latin(arg_list):
 
     for word in arg_list:
         is_exist_uppercase = False
-        lower_case_latin = word[0]
+        hankaku_case_latin = word[0]
         # 単語に全角ラテン文字が含まれていたら、半角ラテン文字に変換した単語を作成する
         for ConvertRule in convrules.LATIN_CONVERT_PATTERN:
-            if ConvertRule[0] in lower_case_latin:
-                lower_case_latin = lower_case_latin.replace(ConvertRule[0], ConvertRule[1])
+            if ConvertRule[0] in hankaku_case_latin:
+                hankaku_case_latin = hankaku_case_latin.replace(ConvertRule[0], ConvertRule[1])
                 is_exist_uppercase = True
         # 単語に全角ラテン文字が含まれていたら、半角と全角両方のラテン文字をリストに入れる
         if is_exist_uppercase:
-            return_list.append([lower_case_latin, word[1], word[2]])
+            return_list.append([hankaku_case_latin, word[1], word[2]])
             return_list.append([word[0], word[1], str(int(word[2]) - 1)])  # 全角のスコアは-1する
         # 単語に全角ラテン文字が含まれていなかったら、そのままにする
         else:
@@ -51,16 +51,16 @@ def add_full_with_latin(arg_list):
 
     for word in arg_list:
         is_exist_lowercase = False
-        upper_case_latin = word[0]
+        zenkaku_case_latin = word[0]
         # 単語に半角ラテン文字が含まれていたら、全角ラテン文字に変換した単語を作成する
         for ConvertRule in convrules.LATIN_CONVERT_PATTERN:
-            if ConvertRule[1] in upper_case_latin:
-                upper_case_latin = upper_case_latin.replace(ConvertRule[1], ConvertRule[0])
+            if ConvertRule[1] in zenkaku_case_latin:
+                zenkaku_case_latin = zenkaku_case_latin.replace(ConvertRule[1], ConvertRule[0])
                 is_exist_lowercase = True
         # 単語に半角ラテン文字が含まれていたら、半角と全角両方のラテン文字をリストに入れる
         if is_exist_lowercase:
             return_list.append(word)
-            return_list.append([upper_case_latin, word[1], str(int(word[2]) - 1)])  # 全角のスコアは-1する
+            return_list.append([zenkaku_case_latin, word[1], str(int(word[2]) - 1)])  # 全角のスコアは-1する
         # 単語に全角ラテン文字が含まれていなかったら、そのままにする
         else:
             return_list.append(word)
