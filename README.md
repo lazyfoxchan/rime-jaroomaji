@@ -19,7 +19,6 @@ Japanese rōmaji input schema for Rime IME.
   `lazyfoxchan/rime-jaroomaji`
 3. 各環境に合わせたやり方で、rime-jaroomajiを有効化し、再デプロイ(重新部署)して下さい。  
 参考：[Rime IME公式ドキュメント「データファイルの構成と動作」(華文)](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E4%B8%AD%E7%9A%84%E6%95%B8%E6%93%9A%E6%96%87%E4%BB%B6%E5%88%86%E4%BD%88%E5%8F%8A%E4%BD%9C%E7%94%A8)
-  
 
 ## 入力方法
 * 記号入力などは全てUS配列として動作します
@@ -34,7 +33,7 @@ Japanese rōmaji input schema for Rime IME.
 ## Tips
 
 ### ユーザー辞書に単語を追加したい
-`opencc/CreateUserDict.py`でユーザー辞書ファイルを生成することが出来ます。  
+`dict_tools/CreateUserDict.py`でユーザー辞書ファイルを生成することが出来ます。  
 生成されるユーザー辞書ファイルは`jaroomaji.user.dict.yaml`です。  
 実行方法の詳細は[dict_tools/README.md](dict_tools/README.md)をご確認下さい。
 

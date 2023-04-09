@@ -34,5 +34,5 @@ jobs:
           git config user.name  "actions-user"
           git config user.email "action@github.com"
           git add jaroomaji.jmdict.dict.yaml
-          git commit -m "周次自動更新: JMDict"
+          git commit -m "週次自動更新: JMDict"
           git push origin master
