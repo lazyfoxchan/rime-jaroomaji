@@ -1,4 +1,4 @@
-name: AutoUpdate (If no changes will fail)
+name: AutoUpdate
 
 on:
   # 毎週木曜日20時30分に実行(日本時間)
