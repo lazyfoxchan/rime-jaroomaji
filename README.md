@@ -21,7 +21,6 @@ Japanese rōmaji input schema for Rime IME.
 参考：[Rime IME公式ドキュメント「データファイルの構成と動作」(華文)](https://github.com/rime/home/wiki/RimeWithSchemata#rime-%E4%B8%AD%E7%9A%84%E6%95%B8%E6%93%9A%E6%96%87%E4%BB%B6%E5%88%86%E4%BD%88%E5%8F%8A%E4%BD%9C%E7%94%A8)
 
 ## 入力方法
-* 記号入力などは全てUS配列として動作します
 * Shiftキー `=` 日本語モード/英字モードの切り替え
 * Shift+ローマ字入力 `=` 強制カタカナ入力
 * 入力中にEnter `=` 入力したひらがなを確定
