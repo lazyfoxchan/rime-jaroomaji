@@ -49,7 +49,7 @@ def main():
                 kanji_list.append([character.find("literal").text, jaconv.kata2hira(reading.text), calc_score(False)])
             if reading.attrib["r_type"] == "ja_kun":
                 kanji_list.append([character.find("literal").text, reading.text, calc_score(True)])
-    #　訓読みの特殊なデータをIMEで使える形にする
+    # 訓読みの特殊なデータをIMEで使える形にする
     for kanji in kanji_list:
         # 訓読みの送り仮名を漢字側に入れる
         if "." in kanji[1]:

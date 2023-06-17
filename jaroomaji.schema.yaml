@@ -1,4 +1,4 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 # 
 # License: Apache License 2.0
@@ -64,7 +64,6 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-"
   initials: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-"
   delimiter: " "
-  algebra:
   algebra:
     - "derive/-/l/"
     - "derive/-/L/"

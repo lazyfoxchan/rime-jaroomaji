@@ -117,13 +117,13 @@ def hiralist2roomalist(arg_list):
         if input_list_line[1] == "ー":
             continue
 
-        # 変換フォーズ1  ex. 「あ」→「a」、「りゅ」→「ryu」
+        # 変換フェーズ1  ex. 「あ」→「a」、「りゅ」→「ryu」
         yomi = input_list_line[1]
         for convert_rule in convrules.CONVERT_PATTERN_1:
             yomi = yomi.replace(convert_rule[0], convert_rule[1])
         yomi = yomi[:-1]
 
-        # 変換フォーズ2  ex. 「ryu」→「ryu」、「ri xu」
+        # 変換フェーズ2  ex. 「ryu」→「ryu」、「ri xu」
         results = [""]
         for char in yomi.split(" "):
             new_results = []
