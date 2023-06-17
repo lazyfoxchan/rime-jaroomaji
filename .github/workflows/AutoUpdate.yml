@@ -1,15 +1,15 @@
 name: AutoUpdate (If no changes will fail)
 
 on:
-  # 毎年4月1日0時に実行(日本時間)
+  # 毎週木曜日20時30分に実行(日本時間)
   schedule:
-    - cron: '0 15 31 3 *'
+    - cron: '30 11 * * 4'
   ## 手動実行用
   workflow_dispatch:
 
 # ジョブ設定
 jobs:
-  build:
+  AutoUpdateJob:
     runs-on: ubuntu-latest
     steps:
       # チェックアウト
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
       # Pythonインストール
       - name: Set up Python 3.11
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v4
         with:
           python-version: 3.11
       # pip
@@ -25,6 +25,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install jaconv
+      # ConvertJmDict.py実行
+      - name: Run ConvertJmDict.py
+        run: python dict_tools/ConvertJmDict.py
       # ConvertKanjiDic2.py実行
       - name: Run ConvertKanjiDic2.py
         run: python dict_tools/ConvertKanjiDic2.py
@@ -44,6 +47,6 @@ jobs:
         run: |
           git config user.name  "actions-user"
           git config user.email "action@github.com"
-          git add jaroomaji.kanjidic2.dict.yaml jaroomaji.mozc.dict.yaml jaroomaji.mozcemoji.dict.yaml jaroomaji.user.dict.yaml
-          git commit -m "年次自動更新"
+          git add jaroomaji.jmdict.dict.yaml jaroomaji.kanjidic2.dict.yaml jaroomaji.mozc.dict.yaml jaroomaji.mozcemoji.dict.yaml jaroomaji.user.dict.yaml
+          git commit -m "自動更新"
           git push origin master

@@ -37,8 +37,8 @@ Japanese rōmaji input schema for Rime IME.
 実行方法の詳細は[dict_tools/README.md](dict_tools/README.md)をご確認下さい。
 
 ### 最新の単語を辞書に追加したい
-[![AutoUpdateJMDict](https://github.com/lazyfoxchan/rime-jaroomaji/actions/workflows/AutoUpdateJMDict.yml/badge.svg)](https://github.com/lazyfoxchan/rime-jaroomaji/actions/workflows/AutoUpdateJMDict.yml)  
-このレポジトリの`jaroomaji.jmdict.dict.yaml`は毎週自動更新されます。  
+[![AutoUpdate](https://github.com/lazyfoxchan/rime-jaroomaji/actions/workflows/AutoUpdate.yml/badge.svg)](https://github.com/lazyfoxchan/rime-jaroomaji/actions/workflows/AutoUpdate.yml)  
+このレポジトリの辞書ファイルは毎週自動更新されます。  
 必要に応じて自環境のファイルを更新してください。  
 
 ### Weasel(小狼毫)ユーザー向けオススメ設定
