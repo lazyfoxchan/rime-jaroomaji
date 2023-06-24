@@ -17,8 +17,10 @@ OUTPUT_FILE_HEADER = \
 # encoding: utf-8
 #
 # This file was converted from KANJIDIC2
-# See original license:
+# See original license(CC BY-SA 4.0):
 # https://www.edrdg.org/edrdg/licence.html
+# https://creativecommons.org/licenses/by-sa/4.0/
+# https://creativecommons.org/licenses/by-sa/4.0/legalcode
 #
 
 ---
