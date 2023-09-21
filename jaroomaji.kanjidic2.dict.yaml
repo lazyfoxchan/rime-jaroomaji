@@ -21015,8 +21015,6 @@ use_preset_vocabulary: false
 傖	si xyo u	8000
 傖	so u	8000
 傖しい	i ya si i	8888
-傖	i ya si i mo no	8888
-傖	i na ka mo no	8888
 傛	yo u	8000
 傛	yu	8000
 傛む	ka ga mu	8888
@@ -29996,7 +29994,8 @@ use_preset_vocabulary: false
 甿	mi xyo u	8000
 甿	bo u	8000
 畀	hi	8000
-畀	a ta e ru mo no	8888
+畀える	a ta e ru	8888
+畀う	ta ma u	8888
 畃	syu nn	8000
 畃	si xyu nn	8000
 畃け	i i tu ke	8888
