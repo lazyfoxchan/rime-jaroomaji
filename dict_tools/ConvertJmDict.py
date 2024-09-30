@@ -123,9 +123,7 @@ def main():
     jmdict_list = convcommon.add_half_with_latin(jmdict_list)
     print("step 2/6 小文字ラテン文字の追加 ： 完了")
 
-    # 変換精度向上のため、読みが「っ」で終わる単語を処理する
-    jmdict_list = convcommon.replace_xtu(jmdict_list)
-    print("step 3/6 「っ」で終わる単語の置換 ： 完了")
+    print("step 3/6 「っ」で終わる単語の置換 ： スキップ")
 
     # ひらがなの読みをローマ字に変換する
     jmdict_list = convcommon.hiralist2roomalist(jmdict_list)
