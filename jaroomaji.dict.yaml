@@ -13,5 +13,6 @@ import_tables:
   - jaroomaji.jmdict
   - jaroomaji.mozcemoji
   - jaroomaji.kanjidic2
+  - jaroomaji.kigou_extension
 # - jaroomaji.neologd  # TODO neologdから変換した辞書を作成する
 ...
