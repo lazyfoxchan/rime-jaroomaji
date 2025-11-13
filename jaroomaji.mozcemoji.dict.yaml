@@ -48,15 +48,25 @@ use_preset_vocabulary: false
 #️⃣	si xya - pu da i ya ru	30000
 *️⃣	ka ko mi su u zi	30000
 0️⃣	ka ko mi su u zi	30000
+1️⃣	i ti	30000
 1️⃣	ka ko mi su u zi	30000
 2️⃣	ka ko mi su u zi	30000
+2️⃣	ni	30000
 3️⃣	ka ko mi su u zi	30000
+3️⃣	sa nn	30000
 4️⃣	ka ko mi su u zi	30000
+4️⃣	yo nn	30000
 5️⃣	ka ko mi su u zi	30000
+5️⃣	go	30000
 6️⃣	ka ko mi su u zi	30000
+6️⃣	ro ku	30000
 7️⃣	ka ko mi su u zi	30000
+7️⃣	na na	30000
 8️⃣	ka ko mi su u zi	30000
+8️⃣	ha ti	30000
 9️⃣	ka ko mi su u zi	30000
+9️⃣	kyu u	30000
+9️⃣	ki xyu u	30000
 ©️	ki go u	30000
 ©️	ko pi - ra i to	30000
 ©️	tyo sa ku ke nn	30000
@@ -1192,6 +1202,7 @@ use_preset_vocabulary: false
 🇨🇳	ti xyu u go ku	30000
 🇨🇴	ko ro nn bi a	30000
 🇨🇵	ku ri xtu pa - to nn to u	30000
+🇨🇶	sa - ku to u	30000
 🇨🇷	ko su ta ri ka	30000
 🇨🇺	kyu - ba	30000
 🇨🇺	ki xyu - ba	30000
@@ -4104,10 +4115,8 @@ use_preset_vocabulary: false
 👩	o to na	30000
 👩	o nn na	30000
 👩	ka o	30000
-👩	ki nn pa tu	30000
 👩	zyo se i	30000
 👩	zi xyo se i	30000
-👩	bu ro nn do	30000
 👩‍⚕️	i si	30000
 👩‍⚕️	i sya	30000
 👩‍⚕️	i si xya	30000
@@ -4473,34 +4482,26 @@ use_preset_vocabulary: false
 👩‍🦰	o to na	30000
 👩‍🦰	o nn na	30000
 👩‍🦰	ka o	30000
-👩‍🦰	ki nn pa tu	30000
 👩‍🦰	zyo se i	30000
 👩‍🦰	zi xyo se i	30000
-👩‍🦰	bu ro nn do	30000
 👩‍🦱	o to na	30000
 👩‍🦱	o nn na	30000
 👩‍🦱	ka o	30000
-👩‍🦱	ki nn pa tu	30000
 👩‍🦱	zyo se i	30000
 👩‍🦱	zi xyo se i	30000
-👩‍🦱	bu ro nn do	30000
 👩‍🦱	ma ki ge	30000
 👩‍🦲	o to na	30000
 👩‍🦲	o nn na	30000
 👩‍🦲	ka o	30000
-👩‍🦲	ki nn pa tu	30000
 👩‍🦲	zyo se i	30000
 👩‍🦲	zi xyo se i	30000
 👩‍🦲	ha ge a ta ma	30000
-👩‍🦲	bu ro nn do	30000
 👩‍🦳	o to na	30000
 👩‍🦳	o nn na	30000
 👩‍🦳	ka o	30000
-👩‍🦳	ki nn pa tu	30000
 👩‍🦳	si ra ga	30000
 👩‍🦳	zyo se i	30000
 👩‍🦳	zi xyo se i	30000
-👩‍🦳	bu ro nn do	30000
 👩‍🦼	a ku se si bi ri thi	30000
 👩‍🦼	a ku se si bi ri te xi	30000
 👩‍🦼	ku ru ma i su	30000
@@ -4698,12 +4699,10 @@ use_preset_vocabulary: false
 👵	o ba a tya nn	30000
 👵	o ba a ti xya nn	30000
 👵	ka o	30000
-👵	ki nn pa tu	30000
 👵	ko u re i sya	30000
 👵	ko u re i si xya	30000
 👵	zyo se i	30000
 👵	zi xyo se i	30000
-👵	bu ro nn do	30000
 👵	ro u zi nn	30000
 👶	a ka tya nn	30000
 👶	a ka ti xya nn	30000
@@ -6322,11 +6321,9 @@ use_preset_vocabulary: false
 🕴️	su - tu	30000
 🕴️	da nn se i	30000
 🕴️	bi zi ne su ma nn	30000
-🕵️	o to ko	30000
 🕵️	si ri tu ta nn te i	30000
 🕵️	su pa i	30000
 🕵️	ta nn te i	30000
-🕵️	da nn se i	30000
 🕵️	mu si me ga ne	30000
 🕵️‍♀️	o nn na	30000
 🕵️‍♀️	si ri tu ta nn te i	30000
@@ -7878,6 +7875,15 @@ use_preset_vocabulary: false
 🛗	si xyo u ko u ki	30000
 🛗	ba ri a hu ri -	30000
 🛗	ri hu to	30000
+🛘	ga nn se ki	30000
+🛘	sa i ga i	30000
+🛘	zi su be ri	30000
+🛘	do sya sa i ga i	30000
+🛘	do si xya sa i ga i	30000
+🛘	ho u ra ku	30000
+🛘	ya ma	30000
+🛘	ya ma ku zu re	30000
+🛘	ra ku se ki	30000
 🛜	i nn ta - ne xtu to	30000
 🛜	su ma ho	30000
 🛜	se tu zo ku	30000
@@ -9740,6 +9746,9 @@ use_preset_vocabulary: false
 🧑‍🧒‍🧒	o ya ko	30000
 🧑‍🧒‍🧒	ka zo ku	30000
 🧑‍🧒‍🧒	ko do mo hu ta ri	30000
+🧑‍🩰	da nn sa -	30000
+🧑‍🩰	ba re e	30000
+🧑‍🩰	ba re e da nn sa -	30000
 🧒	ka o	30000
 🧒	ki xtu zu	30000
 🧒	ko do mo	30000
@@ -10374,6 +10383,24 @@ use_preset_vocabulary: false
 🪉	ki xyu - pi xtu do	30000
 🪉	ge nn ga xtu ki	30000
 🪉	ha - pu	30000
+🪊	o nn ga ku	30000
+🪊	ka nn ga xtu ki	30000
+🪊	ga xtu ki	30000
+🪊	zya zu	30000
+🪊	zi xya zu	30000
+🪊	su i so u ga ku	30000
+🪊	su ra i do	30000
+🪊	to ro nn bo - nn	30000
+🪎	o ka ne	30000
+🪎	o ta ka ra	30000
+🪎	ki ki nn zo ku	30000
+🪎	ki nn ka	30000
+🪎	za i ho u	30000
+🪎	zyu e ri -	30000
+🪎	zi xyu e ri -	30000
+🪎	ta ka ra ba ko	30000
+🪎	to mi	30000
+🪎	ho u se ki	30000
 🪏	a na	30000
 🪏	sya be ru	30000
 🪏	si xya be ru	30000
@@ -10720,6 +10747,10 @@ use_preset_vocabulary: false
 🪽	ha ne	30000
 🪽	hi ko u	30000
 🪾	ka re ki	30000
+🪾	ka nn ba tu	30000
+🪾	ha no na i ki	30000
+🪾	hu mo u	30000
+🪾	hu yu	30000
 🪿	a hi ru	30000
 🪿	ga tyo u	30000
 🪿	ga ti xyo u	30000
@@ -10770,7 +10801,31 @@ use_preset_vocabulary: false
 🫅	ko ku o u	30000
 🫅	zyo u o u	30000
 🫅	zi xyo u o u	30000
+🫆	ka nn si ki	30000
 🫆	si mo nn	30000
+🫆	se i ta i ni nn syo u	30000
+🫆	se i ta i ni nn si xyo u	30000
+🫆	se kyu ri thi	30000
+🫆	se kyu ri te xi	30000
+🫆	se ki xyu ri thi	30000
+🫆	se ki xyu ri te xi	30000
+🫈	i e thi	30000
+🫈	i e te xi	30000
+🫈	kyo zi nn	30000
+🫈	ki xyo zi nn	30000
+🫈	ke mu ku zya ra	30000
+🫈	ke mu ku zi xya ra	30000
+🫈	ke mu ku zya ra no se i bu tu	30000
+🫈	ke mu ku zi xya ra no se i bu tu	30000
+🫈	sa su ka xtu ti	30000
+🫈	bi xtu gu hu xtu to	30000
+🫈	mi ka ku ni nn do u bu tu	30000
+🫈	mo ri	30000
+🫍	u mi	30000
+🫍	ka i yo u	30000
+🫍	ku zi ra	30000
+🫍	sya ti	30000
+🫍	si xya ti	30000
 🫎	e da tu no	30000
 🫎	e ru ku	30000
 🫎	si ka	30000
@@ -10792,8 +10847,6 @@ use_preset_vocabulary: false
 🫐	bu ru - be ri -	30000
 🫐	be ri -	30000
 🫑	a o pi - ma nn	30000
-🫑	a ka pi - ma nn	30000
-🫑	ta be mo no	30000
 🫑	to u ga ra si	30000
 🫑	pa pu ri ka	30000
 🫑	pi - ma nn	30000
@@ -10881,8 +10934,18 @@ use_preset_vocabulary: false
 🫛	da i zu	30000
 🫛	ma me	30000
 🫛	ya sa i	30000
+🫜	ka bu	30000
 🫜	ko nn sa i	30000
+🫜	ni wa	30000
+🫜	ne	30000
+🫜	bi - tu	30000
+🫜	ya sa i	30000
+🫟	si bu ki	30000
+🫟	su pu ra xtu syu	30000
+🫟	su pu ra xtu si xyu	30000
 🫟	to bi ti xtu ta pe nn ki	30000
+🫟	to bi ti ri	30000
+🫟	pe nn ki	30000
 🫠	a tu i	30000
 🫠	e ki ta i	30000
 🫠	ka o	30000
@@ -10960,6 +11023,20 @@ use_preset_vocabulary: false
 🫩	te tu ya	30000
 🫩	ne mu i	30000
 🫩	me ni ku ma ga a ru ka o	30000
+🫪	a ze nn	30000
+🫪	o do ro i ta	30000
+🫪	syo xtu ku	30000
+🫪	si xyo xtu ku	30000
+🫪	hu a nn	30000
+🫪	hu ku re ta	30000
+🫪	bo u ze nn	30000
+🫪	yu ga nn da ka o	30000
+🫯	a ra so i	30000
+🫯	ke nn ka	30000
+🫯	tu ti ke mu ri	30000
+🫯	to xtu ku mi a i	30000
+🫯	ba to ru	30000
+🫯	bo ka su ka	30000
 🫰	a i	30000
 🫰	o ka ne	30000
 🫰	o ya yu bi to hi to sa si yu bi wo ku ro su	30000
