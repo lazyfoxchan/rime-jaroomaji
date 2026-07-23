@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-07-16"
+version: "2026-07-23"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -44875,6 +44875,7 @@ WASP	wa su pu	40000
 一過	i xtu ka	40002
 一過性	i xtu ka se i	40000
 一画	i xtu ka ku	40001
+１画	i xtu ka ku	40000
 一劃	i xtu ka ku	40000
 一介	i xtu ka i	40001
 一回	i xtu ka i	40002
@@ -46031,7 +46032,7 @@ WASP	wa su pu	40000
 引回す	hi ki ma wa su	40000
 引廻す	hi ki ma wa su	40000
 引き寄せる	hi ki yo se ru	40001
-引寄せる	hi ki yo se ru	40000
+惹き寄せる	hi ki yo se ru	40000
 引き起こす	hi ki o ko su	40002
 引き去る	hi ki sa ru	40000
 引去る	hi ki sa ru	40000
@@ -47251,6 +47252,8 @@ WASP	wa su pu	40000
 炎色	e nn si xyo ku	40000
 焔色	e nn syo ku	40000
 焔色	e nn si xyo ku	40000
+焰色	e nn syo ku	40000
+焰色	e nn si xyo ku	40000
 炎天	e nn te nn	40002
 炎天下	e nn te nn ka	40000
 炎熱	e nn ne tu	40001
@@ -51797,9 +51800,6 @@ WASP	wa su pu	40000
 渇望者	ka tu bo u sya	40000
 渇望者	ka tu bo u si xya	40000
 滑らか	na me ra ka	40002
-滑か	na me ra ka	40000
-滑らか	su be ra ka	40002
-滑か	su be ra ka	40000
 滑らす	su be ra su	40000
 滑りやすい	su be ri ya su i	40000
 滑り易い	su be ri ya su i	40000
@@ -64931,6 +64931,7 @@ WASP	wa su pu	40000
 困らせる	ko ma ra se ru	40000
 困り果てる	ko ma ri ha te ru	40002
 困りはてる	ko ma ri ha te ru	40000
+困りもの	ko ma ri mo no	40000
 困り者	ko ma ri mo no	40000
 困りきる	ko ma ri ki ru	40000
 困り切る	ko ma ri ki ru	40000
@@ -68950,9 +68951,6 @@ WASP	wa su pu	40000
 芇	zi go	40000
 持参	zi sa nn	40002
 持ち上がる	mo ti a ga ru	40001
-持上がる	mo ti a ga ru	40000
-持ち上る	mo ti a ga ru	40000
-持上る	mo ti a ga ru	40000
 持続	zi zo ku	40002
 持続力	zi zo ku ryo ku	40000
 持続力	zi zo ku ri xyo ku	40000
@@ -70448,6 +70446,7 @@ WASP	wa su pu	40000
 弱り切る	yo wa ri ki ru	40000
 弱り目	yo wa ri me	40000
 弱り目に祟り目	yo wa ri me ni ta ta ri me	40000
+弱り目にたたり目	yo wa ri me ni ta ta ri me	40000
 弱る	yo wa ru	40002
 弱音	zya ku o nn	40000
 弱音	zi xya ku o nn	40000
@@ -106990,6 +106989,7 @@ WASP	wa su pu	40000
 余震	yo si nn	40002
 余塵	yo zi nn	40000
 余水吐	yo su i ha ki	40000
+余水吐き	yo su i ha ki	40000
 余水路	yo su i ro	40000
 余勢	yo se i	40001
 余賊	yo zo ku	40000
@@ -120237,6 +120237,7 @@ WASP	wa su pu	40000
 掘り返す	ho ri ka e su	40001
 堀り返す	ho ri ka e su	40000
 掘り出し物	ho ri da si mo no	40001
+掘り出し物	ho ri da si mo nn	40001
 彫り物	ho ri mo no	40000
 彫物	ho ri mo no	40000
 堀割	ho ri wa ri	40000
@@ -126694,6 +126695,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 訓導	ku nn do u	40000
 比べ物にならない	ku ra be mo no ni na ra na i	40000
 比べものにならない	ku ra be mo no ni na ra na i	40000
+くらい込む	ku ra i ko mu	40000
 食らい込む	ku ra i ko mu	40000
 位する	ku ra i su ru	40000
 栗石	ku ri i si	40000
@@ -130794,10 +130796,12 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 長夜	zyo u ya	40000
 長夜	zi xyo u ya	40000
 長夜	na ga yo	40000
-帳付け	tyo u tu ke	40000
-帳付け	ti xyo u tu ke	40000
-帳付け	tyo u du ke	40000
-帳付け	ti xyo u du ke	40000
+帳付	tyo u tu ke	40000
+帳付	ti xyo u tu ke	40000
+帳つけ	tyo u tu ke	40000
+帳つけ	ti xyo u tu ke	40000
+帳付	tyo u du ke	40000
+帳付	ti xyo u du ke	40000
 初空	ha tu so ra	40000
 初空	ha tu zo ra	40000
 声音	se i o nn	40000
@@ -132471,9 +132475,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 徒食い	mu da gu i	40000
 無駄骨折り	mu da bo ne o ri	40000
 無駄飯	mu da me si	40000
-むだ飯	mu da me si	40000
 徒飯	mu da me si	40000
-ムダ飯	mu da me si	40000
 無慮	mu ryo	40000
 無慮	mu ri xyo	40000
 無熱	mu ne tu	40000
@@ -135124,8 +135126,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 配膳人	ha i ze nn ni nn	40000
 配膳室	ha i ze nn si tu	40000
 飛び入り	to bi i ri	40001
-飛入り	to bi i ri	40000
-とび入り	to bi i ri	40000
 飛び下り	to bi o ri	40000
 飛び降り	to bi o ri	40001
 飛札	hi sa tu	40000
@@ -136432,6 +136432,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 竹簀	ta ke su	40000
 竺学	zi ku ga ku	40000
 首っ引き	ku bi xtu pi ki	40000
+頸っ引き	ku bi xtu pi ki	40000
 首っ玉	ku bi xtu ta ma	40000
 首位打者	syu i da sya	40000
 首位打者	syu i da si xya	40000
@@ -137344,6 +137345,10 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 諸事万端	si xyo zi ba nn ta nn	40000
 諸家	syo ka	40000
 諸家	si xyo ka	40000
+諸掛	syo ga ka ri	40000
+諸掛	si xyo ga ka ri	40000
+諸掛り	syo ga ka ri	40000
+諸掛り	si xyo ga ka ri	40000
 諸掛かり	syo ga ka ri	40000
 諸掛かり	si xyo ga ka ri	40000
 諸訳	syo wa ke	40000
@@ -137420,8 +137425,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 書記官	syo ki ka nn	40002
 書記官	si xyo ki ka nn	40002
 書き連ねる	ka ki tu ra ne ru	40000
-書連ねる	ka ki tu ra ne ru	40000
-かき連ねる	ka ki tu ra ne ru	40000
 書院造り	syo i nn du ku ri	40000
 書院造り	si xyo i nn du ku ri	40000
 書院造	syo i nn du ku ri	40000
@@ -142325,7 +142328,10 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 飯盛り	me si mo ri	40000
 飯櫃	me si bi tu	40000
 飯櫃	i i bi tu	40000
+盤台	ha nn da i	40000
+板台	ha nn da i	40000
 盤台	ba nn da i	40000
+板台	ba nn da i	40000
 盤面	ba nn me nn	40001
 盤根錯節	ba nn ko nn sa ku se tu	40000
 煩多	ha nn ta	40000
@@ -145049,6 +145055,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 蘇鉄	so te tu	40000
 青山	se i za nn	40002
 青山	a o ya ma	40002
+青そこひ	a o so ko hi	40000
 青底翳	a o so ko hi	40000
 青内障	a o so ko hi	40000
 青木	a o ki	40002
@@ -147131,7 +147138,8 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 若松	wa ka ma tu	40000
 若枝	wa ka e da	40000
 若い者	wa ka i mo no	40001
-若いもの	wa ka i mo no	40000
+若い者	wa ka i mo nn	40001
+若いもん	wa ka i mo nn	40000
 若武者	wa ka mu sya	40001
 若武者	wa ka mu si xya	40001
 若草色	wa ka ku sa i ro	40000
@@ -166677,6 +166685,8 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 盃盤	ha i ba nn	40000
 肺病病み	ha i byo u ya mi	40000
 肺病病み	ha i bi xyo u ya mi	40000
+肺病やみ	ha i byo u ya mi	40000
+肺病やみ	ha i bi xyo u ya mi	40000
 杯を重ねる	ha i wo ka sa ne ru	40000
 敗	ha i	40000
 肺を病む	ha i wo ya mu	40000
@@ -174143,8 +174153,6 @@ PETボトル	pe xtu to bo to ru	40000
 もぎ取る	mo gi to ru	40000
 捥ぎ取る	mo gi to ru	40000
 頑張って	ga nn ba xtu te	40002
-なんて目じゃない	na nn te me zya na i	40000
-なんて目じゃない	na nn te me zi xya na i	40000
 鰺刺	a zi sa si	40000
 極鰺刺	kyo ku a zi sa si	40000
 極鰺刺	ki xyo ku a zi sa si	40000
@@ -183358,11 +183366,9 @@ JASDAQ市場	zi xya su da xtu ku i ti ba	40000
 つま先立つ	tu ma sa ki da tu	40000
 捕方	to ri ka ta	40000
 捕り方	to ri ka ta	40000
-取り方	to ri ka ta	40002
+取り方	to ri ka ta	40001
 撮り方	to ri ka ta	40000
 採り方	to ri ka ta	40000
-取方	to ri ka ta	40000
-撮方	to ri ka ta	40000
 どす黒い	do su gu ro i	40000
 ドス黒い	do su gu ro i	40000
 どんちゃん騒ぎ	do nn tya nn sa wa gi	40000
@@ -185036,9 +185042,8 @@ SALT	so ru to	40000
 殺る	ya ru	40000
 取り押さえる	to ri o sa e ru	40000
 取り抑える	to ri o sa e ru	40000
-取り止め	to ri ya me	40000
 取りやめ	to ri ya me	40000
-取止め	to ri ya me	40000
+取り止め	to ri ya me	40000
 手ぶら	te bu ra	40000
 手作業	te sa gyo u	40000
 手作業	te sa gi xyo u	40000
@@ -189446,7 +189451,6 @@ QT延長症候群	ki xyu - te xi - e nn ti xyo u si xyo u ko u gu nn	40000
 英トン	e i to nn	40000
 英屯	e i to nn	40000
 英噸	e i to nn	40000
-い辛っぽい	i ga ra xtu po i	40000
 蘞辛っぽい	i ga ra xtu po i	40000
 蘞辛っぽい	e ga ra xtu po i	40000
 えっちらおっちら	e xtu ti ra o xtu ti ra	40000
@@ -189730,6 +189734,7 @@ QT延長症候群	ki xyu - te xi - e nn ti xyo u si xyo u ko u gu nn	40000
 外遊中	ga i yu u tyu u	40000
 外遊中	ga i yu u ti xyu u	40000
 相済みません	a i su mi ma se nn	40000
+相すみません	a i su mi ma se nn	40000
 大ニュース	da i nyu - su	40000
 大ニュース	da i ni xyu - su	40000
 標準以下	hyo u zyu nn i ka	40000
@@ -198908,7 +198913,6 @@ ROMる	ro mu ru	40000
 尻を据える	si ri wo su e ru	40000
 暇を出す	hi ma wo da su	40000
 いつまで経っても	i tu ma de ta xtu te mo	40000
-何時まで経っても	i tu ma de ta xtu te mo	40000
 夕冷え	yu u bi e	40000
 汗衫	ka za mi	40000
 汗衫	ka nn sa nn	40000
@@ -199990,6 +199994,7 @@ Wimdows	u i nn do u zu	40000
 碧色	he ki si xyo ku	40000
 うだつが上がらない	u da tu ga a ga ra na i	40000
 梲が上がらない	u da tu ga a ga ra na i	40000
+相なる	a i na ru	40000
 相成る	a i na ru	40000
 梅肉	ba i ni ku	40000
 甲子園	ko u si e nn	40002
@@ -201927,6 +201932,8 @@ Wimdows	u i nn do u zu	40000
 窮鼠猫を噛む	ki xyu u so ne ko wo ka mu	40000
 窮鼠猫をかむ	kyu u so ne ko wo ka mu	40000
 窮鼠猫をかむ	ki xyu u so ne ko wo ka mu	40000
+窮鼠猫を嚙む	kyu u so ne ko wo ka mu	40000
+窮鼠猫を嚙む	ki xyu u so ne ko wo ka mu	40000
 窮鳥懐に入れば猟師もこれを殺さず	kyu u tyo u hu to ko ro ni i re ba ryo u si mo ko re wo ko ro sa zu	40000
 窮鳥懐に入れば猟師もこれを殺さず	kyu u tyo u hu to ko ro ni i re ba ri xyo u si mo ko re wo ko ro sa zu	40000
 窮鳥懐に入れば猟師もこれを殺さず	kyu u ti xyo u hu to ko ro ni i re ba ryo u si mo ko re wo ko ro sa zu	40000
@@ -205273,6 +205280,9 @@ B専	bi - se nn	40000
 しっとり	si xtu to ri	40000
 歯触り	ha za wa ri	40000
 歯ざわり	ha za wa ri	40000
+ジージー	zi - zi -	40000
+ジージー	ZI - ZI -	40000
+じーじー	zi - zi -	40000
 じいじい	zi i zi i	40000
 ジイジイ	zi i zi i	40000
 ジイジイ	ZI I ZI I	40000
@@ -207131,7 +207141,9 @@ ES細胞	i - e su sa i bo u	40000
 食い残し	ku i no ko si	40000
 食残し	ku i no ko si	40000
 食い残す	ku i no ko su	40000
+くけ縫い	ku ke nu i	40000
 絎縫い	ku ke nu i	40000
+くけ針	ku ke ba ri	40000
 絎針	ku ke ba ri	40000
 句心	ku go ko ro	40000
 瘡	ku sa	40000
@@ -218896,8 +218908,6 @@ NHK受信料	e nu e i ti ke - zi xyu si nn ri xyo u	40000
 卵胞刺激ホルモン	ra nn ho u si ge ki ho ru mo nn	40000
 内障	na i syo u	40000
 内障	na i si xyo u	40000
-内障	so ko hi	40000
-底翳	so ko hi	40000
 上翳	u wa hi	40000
 外障眼	u wa hi	40000
 全体論	ze nn ta i ro nn	40000
@@ -220249,7 +220259,6 @@ LAN	ra nn	40000
 尖り帽子	to nn ga ri bo u si	40000
 電子透かし	de nn si su ka si	40000
 酒蒸し	sa ka mu si	40000
-酒蒸	sa ka mu si	40000
 パン屑リスト	pa nn ku zu ri su to	40000
 シブレット	si bu re xtu to	40000
 シブレット	SI BU RE XTU TO	40000
@@ -220993,9 +221002,7 @@ VXガス	bu i e xtu ku su ga su	40000
 我が妻	wa ga tu ma	40000
 我が夫	wa ga tu ma	40000
 刺身のつま	sa si mi no tu ma	40000
-刺し身のつま	sa si mi no tu ma	40000
 刺身の妻	sa si mi no tu ma	40000
-刺し身の妻	sa si mi no tu ma	40000
 地元住民	zi mo to zyu u mi nn	40000
 地元住民	zi mo to zi xyu u mi nn	40000
 榾	ho ta	40000
@@ -234175,6 +234182,7 @@ ID番号	a i de xi - ba nn go u	40000
 足を伸ばす	a si wo no ba su	40000
 足をのばす	a si wo no ba su	40000
 耳の日	mi mi no hi	40000
+なろう事なら	na ro u ko to na ra	40000
 成ろう事なら	na ro u ko to na ra	40000
 トルコブルー	to ru ko bu ru -	40000
 トルコブルー	TO RU KO BU RU -	40000
@@ -266013,10 +266021,7 @@ SIMカード	si mu ka - do	40000
 峻峰	si xyu nn po u	40000
 呼び習わす	yo bi na ra wa su	40000
 呼びならわす	yo bi na ra wa su	40000
-呼び慣らわす	yo bi na ra wa su	40000
-呼び馴らわす	yo bi na ra wa su	40000
-呼習わす	yo bi na ra wa su	40000
-呼慣らわす	yo bi na ra wa su	40000
+呼び慣わす	yo bi na ra wa su	40000
 西王母	se i o u bo	40000
 不気味の谷	bu ki mi no ta ni	40000
 コーラルリング	ko - ra ru ri nn gu	40000
@@ -313724,6 +313729,7 @@ Cクレフ	si - ku re hu	40000
 がさり	ga sa ri	40000
 つかみ所のない	tu ka mi do ko ro no na i	40000
 掴み所のない	tu ka mi do ko ro no na i	40000
+摑み所のない	tu ka mi do ko ro no na i	40000
 エテ公	e te ko u	40000
 猿公	e te ko u	40000
 つかみ所がない	tu ka mi do ko ro ga na i	40000
@@ -327632,6 +327638,10 @@ dis	de xi su	40000
 副文	hu ku bu nn	40000
 ガルウイング	ga ru u i nn gu	40000
 ガルウイング	GA RU U I NN GU	40000
+ガルウィング	ga ru whi nn gu	40000
+ガルウィング	GA RU WHI NN GU	40000
+ガルウィング	ga ru u xi nn gu	40000
+ガルウィング	GA RU U XI NN GU	40000
 カラリパヤット	ka ra ri pa ya xtu to	40000
 カラリパヤット	KA RA RI PA YA XTU TO	40000
 ぴったんこ	pi xtu ta nn ko	40000
@@ -328229,10 +328239,7 @@ wktk	wa ku te ka	40000
 刃こぼれ	ha ko bo re	40000
 刃毀れ	ha ko bo re	40000
 むむ	mu mu	40000
-壺にはまる	tu bo ni ha ma ru	40000
-つぼに嵌まる	tu bo ni ha ma ru	40000
 壺に嵌まる	tu bo ni ha ma ru	40000
-ツボに嵌まる	tu bo ni ha ma ru	40000
 無酸紙	mu sa nn si	40000
 屁をひる	he wo hi ru	40000
 屁を放る	he wo hi ru	40000
@@ -371025,7 +371032,6 @@ web予約	u xe bu yo ya ku	40000
 保険募集人	ho ke nn bo syu u ni nn	40000
 保険募集人	ho ke nn bo si xyu u ni nn	40000
 ツボに入る	tu bo ni ha i ru	40000
-つぼに入る	tu bo ni ha i ru	40000
 壺に入る	tu bo ni ha i ru	40000
 つぼ金	tu bo ga ne	40000
 壺金	tu bo ga ne	40000
@@ -384101,6 +384107,7 @@ II型糖尿病	ni ga ta to u ni xyo u bi xyo u	40000
 轗軻不遇	ka nn ka hu gu u	40000
 円鑿方枘	e nn sa ku ho u ze i	40000
 でんぐり返し	de nn gu ri ga e si	40000
+でんぐり返し	de nn gu ri ka e si	40000
 オリエント学	o ri e nn to ga ku	40000
 犯罪社会学	ha nn za i sya ka i ga ku	40000
 犯罪社会学	ha nn za i si xya ka i ga ku	40000
@@ -389849,6 +389856,7 @@ GoTo	go - tu -	40000
 川の幸	ka wa no sa ti	40000
 襟首を掴む	e ri ku bi wo tu ka mu	40000
 襟首をつかむ	e ri ku bi wo tu ka mu	40000
+襟首を摑む	e ri ku bi wo tu ka mu	40000
 ローデシア	ro - de si a	40000
 ローデシア	RO - DE SI A	40000
 需要と供給	zyu yo u to kyo u kyu u	40000
@@ -395934,6 +395942,7 @@ WAV	wa vu	40000
 二二六事件	ni ni ro ku zi ke nn	40000
 ２２６事件	ni ni ro ku zi ke nn	40000
 切って捨てる	ki xtu te su te ru	40000
+斬って捨てる	ki xtu te su te ru	40000
 もわもわ	mo wa mo wa	40000
 モワモワ	mo wa mo wa	40000
 モワモワ	MO WA MO WA	40000
@@ -397579,8 +397588,8 @@ M世代	e mu se da i	40000
 お泊まり会	o to ma ri ka i	40000
 秘密交通権	hi mi tu ko u tu u ke nn	40000
 接見交通権	se xtu ke nn ko u tu u ke nn	40000
-マングリ返し	ma nn gu ri ga e si	40000
 まんぐり返し	ma nn gu ri ga e si	40000
+まんぐり返し	ma nn gu ri ka e si	40000
 小ネタ	ko ne ta	40001
 Vlog	bu i ro gu	40000
 Ｖｌｏｇ	bu i ro gu	39999
@@ -408798,6 +408807,7 @@ UPSERT	a xtu pu sa - to	40000
 原綴り	ge nn tu du ri	40000
 原つづり	ge nn tu du ri	40000
 小楊枝	ko yo u zi	40000
+小楊子	ko yo u zi	40000
 雪氷圏	se xtu pyo u ke nn	40000
 雪氷圏	se xtu pi xyo u ke nn	40000
 複素平面	hu ku so he i me nn	40000
@@ -435200,6 +435210,7 @@ ABC兵器	e - bi - si - he i ki	40000
 麻婆	ma - bo -	40001
 麻婆	ma - bo	40001
 映り込む	u tu ri ko mu	40000
+映りこむ	u tu ri ko mu	40000
 写り込む	u tu ri ko mu	40000
 地下施設	ti ka si se tu	40000
 銀光	gi nn ko u	40000
@@ -435652,6 +435663,7 @@ ABC兵器	e - bi - si - he i ki	40000
 区外	ku ga i	40000
 区外者	ku ga i sya	40000
 区外者	ku ga i si xya	40000
+検使	ke nn si	40000
 髪かたち	ka mi ka ta ti	40000
 髪形	ka mi ka ta ti	40000
 髪容	ka mi ka ta ti	40000
@@ -435700,6 +435712,7 @@ ABC兵器	e - bi - si - he i ki	40000
 涸沢	ka ra sa wa	40000
 黄金の山	ko ga ne no ya ma	40000
 腹が決まる	ha ra ga ki ma ru	40000
+大きな面	o o ki na tu ra	40000
 押っ圧折る	o xtu pe syo ru	40000
 押っ圧折る	o xtu pe si xyo ru	40000
 押っぺしょる	o xtu pe syo ru	40000
@@ -435718,11 +435731,13 @@ ABC兵器	e - bi - si - he i ki	40000
 真木撮棒	ma ki za xtu po	40000
 薪雑把	ma ki za xtu pa	40000
 真木撮棒	ma ki za xtu pa	40000
+たあ	ta a	40000
 弓杖	yu nn du e	40000
 弓杖	yu mi du e	40000
 弓杖	yu du e	40000
 放れ駒	ha na re go ma	40000
 新関	si nn se ki	40000
+野に伏し山に伏す	no ni hu si ya ma ni hu su	40000
 実にや	ge ni ya	40000
 男が立つ	o to ko ga ta tu	40000
 からは	ka ra ha	40000
@@ -435746,6 +435761,7 @@ ABC兵器	e - bi - si - he i ki	40000
 狂笑	kyo u si xyo u	40000
 狂笑	ki xyo u syo u	40000
 狂笑	ki xyo u si xyo u	40000
+既知感	ki ti ka nn	40000
 調室	si ra be si tu	40000
 調べ室	si ra be si tu	40000
 左ぎっちょ	hi da ri gi xtu tyo	40000
@@ -435786,6 +435802,9 @@ ABC兵器	e - bi - si - he i ki	40000
 共感者	ki xyo u ka nn si xya	40000
 巨視	kyo si	40000
 巨視	ki xyo si	40000
+微視	bi si	40000
+親近者	si nn ki nn sya	40000
+親近者	si nn ki nn si xya	40000
 超越者	tyo u e tu sya	40000
 超越者	tyo u e tu si xya	40000
 超越者	ti xyo u e tu sya	40000
@@ -435809,19 +435828,26 @@ ABC兵器	e - bi - si - he i ki	40000
 リバノール	RI BA NO - RU	40000
 フロップ	hu ro xtu pu	40000
 フロップ	HU RO XTU PU	40000
+彦頁	hi ko pe - zi	40000
+彦頁	hi ko pi - di	40000
 代官所	da i ka nn syo	40000
 代官所	da i ka nn si xyo	40000
+けつかる	ke tu ka ru	40000
 落ち武者狩り	o ti mu sya ga ri	40000
 落ち武者狩り	o ti mu si xya ga ri	40000
 覆面捜査官	hu ku me nn so u sa ka nn	40000
 噴門部	hu nn mo nn bu	40000
 エッケホモ	e xtu ke ho mo	40000
 エッケホモ	E XTU KE HO MO	40000
+主管事項	syu ka nn zi ko u	40000
+主管事項	si xyu ka nn zi ko u	40000
 お言葉を返すようですが	o ko to ba wo ka e su yo u de su ga	40000
 面と向かって	me nn to mu ka xtu te	40001
 工事場	ko u zi ba	40000
 踏みつけ	hu mi tu ke	40000
 踏み付け	hu mi tu ke	40000
+人の恋路を邪魔する奴は馬に蹴られて死んじまえ	hi to no ko i zi wo zya ma su ru ya tu ha u ma ni ke ra re te si nn zi ma e	40000
+人の恋路を邪魔する奴は馬に蹴られて死んじまえ	hi to no ko i zi wo zi xya ma su ru ya tu ha u ma ni ke ra re te si nn zi ma e	40000
 太く短く	hu to ku mi zi ka ku	40000
 叩った	ta ta xtu ta	40000
 叩って	ta ta xtu te	40000
@@ -435838,10 +435864,14 @@ ABC兵器	e - bi - si - he i ki	40000
 流連	i tu du ke	40000
 いぶし出す	i bu si da su	40000
 燻し出す	i bu si da su	40000
+ドパガキ	do pa ga ki	40000
+ドパガキ	DO PA GA KI	40000
 水粥	mi zu ga yu	40000
 蜘蛛手	ku mo de	40000
 五濁	go zyo ku	40000
 五濁	go zi xyo ku	40000
+袖にすがる	so de ni su ga ru	40000
+袖に縋る	so de ni su ga ru	40000
 LUT	ra xtu to	40000
 ＬＵＴ	ra xtu to	39999
 常にない	tu ne ni na i	40000
@@ -435872,6 +435902,8 @@ LUT	ra xtu to	40000
 娑婆塞	si xya ba hu sa ge	40000
 大房藻	o o hu sa mo	40000
 掃溜菊	ha ki da me gi ku	40000
+現金車	ge nn ki nn sya	40000
+現金車	ge nn ki nn si xya	40000
 ETC車	i - thi - si - sya	40000
 ETC車	i - thi - si - si xya	40000
 ETC車	i - te xi - si - sya	40000
@@ -435907,6 +435939,7 @@ ETC車	i - te xi - si - si xya	40000
 納米	no u ma i	40000
 乃米	no u ma i	40000
 山年貢	ya ma ne nn gu	40000
+野年貢	no ne nn gu	40000
 外面似菩薩内心如夜叉	ge me nn zi bo sa tu na i si nn nyo ya sya	40000
 外面似菩薩内心如夜叉	ge me nn zi bo sa tu na i si nn nyo ya si xya	40000
 外面似菩薩内心如夜叉	ge me nn zi bo sa tu na i si nn ni xyo ya sya	40000
@@ -435953,7 +435986,12 @@ ETC車	i - te xi - si - si xya	40000
 品管	hi nn ka nn	40000
 了解覚書	ryo u ka i o bo e ga ki	40000
 了解覚書	ri xyo u ka i o bo e ga ki	40000
+祖法	so ho u	40000
 異相	i so u	40000
+讐敵	syu u te ki	40000
+讐敵	si xyu u te ki	40000
+讎敵	syu u te ki	40000
+讎敵	si xyu u te ki	40000
 レティクル	re thi ku ru	40000
 レティクル	RE THI KU RU	40000
 レティクル	re te xi ku ru	40000
@@ -435964,16 +436002,251 @@ ETC車	i - te xi - si - si xya	40000
 認識力	ni nn si ki ri xyo ku	40000
 潜在力	se nn za i ryo ku	40000
 潜在力	se nn za i ri xyo ku	40000
+御者台	gyo sya da i	40000
+御者台	gyo si xya da i	40000
+御者台	gi xyo sya da i	40000
+御者台	gi xyo si xya da i	40000
+馭者台	gyo sya da i	40000
+馭者台	gyo si xya da i	40000
+馭者台	gi xyo sya da i	40000
+馭者台	gi xyo si xya da i	40000
 猛稽古	mo u ge i ko	40000
 超高圧	tyo u ko u a tu	40000
 超高圧	ti xyo u ko u a tu	40000
 死合	si a i	40000
 死合い	si a i	40000
+牛頭鬼	go zu ki	40000
 判鑑	ha nn ka ga mi	40000
 低収入	te i syu u nyu u	40000
 低収入	te i syu u ni xyu u	40000
 低収入	te i si xyu u nyu u	40000
 低収入	te i si xyu u ni xyu u	40000
+手持ち花火	te mo ti ha na bi	40000
+北辰一刀流	ho ku si nn i xtu to u ryu u	40000
+北辰一刀流	ho ku si nn i xtu to u ri xyu u	40000
+鏡新明智流	kyo u si nn me i ti ryu u	40000
+鏡新明智流	kyo u si nn me i ti ri xyu u	40000
+鏡新明智流	ki xyo u si nn me i ti ryu u	40000
+鏡新明智流	ki xyo u si nn me i ti ri xyu u	40000
+神道無念流	si nn to u mu ne nn ryu u	40000
+神道無念流	si nn to u mu ne nn ri xyu u	40000
+浦賀奉行	u ra ga bu gyo u	40000
+浦賀奉行	u ra ga bu gi xyo u	40000
+お帰りなさいませ	o ka e ri na sa i ma se	40000
+仮養子	ka ri yo u si	40000
+ほしたら	ho si ta ra	40000
+ほいたら	ho i ta ra	40000
+ほたら	ho ta ra	40000
+マス掻き	ma su ka ki	40000
+剣気	ke nn ki	40000
+鋭刃	e i zi nn	40000
+総合力	so u go u ryo ku	40000
+総合力	so u go u ri xyo ku	40000
+超兵器	tyo u he i ki	40000
+超兵器	ti xyo u he i ki	40000
+着弾点	tya ku da nn te nn	40000
+着弾点	ti xya ku da nn te nn	40000
+着弾地点	tya ku da nn ti te nn	40000
+着弾地点	ti xya ku da nn ti te nn	40000
+半生	ha nn na ma	40000
+大きな顔	o o ki na ka o	40000
+アドルム	a do ru mu	40000
+アドルム	A DO RU MU	40000
+条約港	zyo u ya ku ko u	40000
+条約港	zi xyo u ya ku ko u	40000
+鼻ヅケ	ha na du ke	40000
+鼻付け	ha na du ke	40000
+俗筋	zo ku su zi	40000
+俗手	zo ku syu	40000
+俗手	zo ku si xyu	40000
+クシ型	ku si ga ta	40000
+櫛型	ku si ga ta	40000
+攻める石にツケるな	se me ru i si ni tu ke ru na	40000
+攻める石に付けるな	se me ru i si ni tu ke ru na	40000
+弱い石にツケるな	yo wa i i si ni tu ke ru na	40000
+弱い石に付けるな	yo wa i i si ni tu ke ru na	40000
+新々刀	si nn si nn to u	40000
+濃州	no u syu u	40000
+濃州	no u si xyu u	40000
+濃州	zyo u syu u	40000
+濃州	zyo u si xyu u	40000
+濃州	zi xyo u syu u	40000
+濃州	zi xyo u si xyu u	40000
+突撃銃	to tu ge ki zyu u	40000
+突撃銃	to tu ge ki zi xyu u	40000
+無個性	mu ko se i	40000
+超高感度	tyo u ko u ka nn do	40000
+超高感度	ti xyo u ko u ka nn do	40000
+黒ミサ	ku ro mi sa	40000
+胴輪	do u wa	40000
+犯罪小説	ha nn za i syo u se tu	40000
+犯罪小説	ha nn za i si xyo u se tu	40000
+不可能犯罪	hu ka no u ha nn za i	40000
+惨殺死体	za nn sa tu si ta i	40000
+動脈出血	do u mya ku syu xtu ke tu	40000
+動脈出血	do u mya ku si xyu xtu ke tu	40000
+動脈出血	do u mi xya ku syu xtu ke tu	40000
+動脈出血	do u mi xya ku si xyu xtu ke tu	40000
+原質	ge nn si tu	40000
+第一原理	da i i ti ge nn ri	40000
+柴舟	si ba hu ne	40000
+精説	se i se tu	40000
+洪水吐	ko u zu i ba ki	40000
+洪水吐き	ko u zu i ba ki	40000
+道悪	mi ti wa ru	40000
+任意コード実行	ni nn i ko - do zi xtu ko u	40000
+押しの一手	o si no i xtu te	40000
+暴帝	bo u te i	40000
+大炊頭	o o i no ka mi	40000
+小人目付	ko bi to me tu ke	40000
+斯程	ka ho do	40000
+止ん事無き	ya nn go to na ki	40000
+書院番	syo i nn ba nn	40000
+書院番	si xyo i nn ba nn	40000
+ベスト版	be su to ba nn	40000
+相果てる	a i ha te ru	40000
+報賞	ho u syo u	40000
+報賞	ho u si xyo u	40000
+血闘	ke xtu to u	40000
+食虫花	syo ku tyu u ka	40000
+食虫花	syo ku ti xyu u ka	40000
+食虫花	si xyo ku tyu u ka	40000
+食虫花	si xyo ku ti xyu u ka	40000
+投げ渡す	na ge wa ta su	40000
+爆破解体	ba ku ha ka i ta i	40000
+吸いさし	su i sa si	40000
+吸い差し	su i sa si	40000
+破滅的	ha me tu te ki	40000
+聖堂騎士団	se i do u ki si da nn	40000
+神殿騎士団	si nn de nn ki si da nn	40000
+和ろうそく	wa ro u so ku	40000
+和蝋燭	wa ro u so ku	40000
+連邦共和国	re nn po u kyo u wa ko ku	40000
+連邦共和国	re nn po u ki xyo u wa ko ku	40000
+民主共和国	mi nn syu kyo u wa ko ku	40000
+民主共和国	mi nn syu ki xyo u wa ko ku	40000
+民主共和国	mi nn si xyu kyo u wa ko ku	40000
+民主共和国	mi nn si xyu ki xyo u wa ko ku	40000
+剣撃	ke nn ge ki	40000
+初撃	syo ge ki	40000
+初撃	si xyo ge ki	40000
+衣紋竹	e mo nn da ke	40000
+ひっちゃぶく	hi xtu tya bu ku	40000
+ひっちゃぶく	hi xtu ti xya bu ku	40000
+人工気胸	zi nn ko u ki kyo u	40000
+人工気胸	zi nn ko u ki ki xyo u	40000
+ばした	ba si ta	40000
+バシタ	ba si ta	40000
+バシタ	BA SI TA	40000
+構いつける	ka ma i tu ke ru	40000
+構い付ける	ka ma i tu ke ru	40000
+上清	zyo u se i	40000
+上清	zi xyo u se i	40000
+惚れた欲目	ho re ta yo ku me	40000
+言外に	ge nn ga i ni	40000
+ラマ僧	ra ma so u	40000
+喇嘛僧	ra ma so u	40000
+肩骨	ke nn ko tu	40000
+あざした	a za si ta	40000
+あざーした	a za - si ta	40000
+あざーっした	a za - xtu si ta	40000
+あざっした	a za xtu si ta	40000
+底翳	so ko hi	40000
+内障	so ko hi	40000
+内障眼	so ko hi	40000
+解像感	ka i zo u ka nn	40000
+一脚	i xtu kya ku	40000
+一脚	i xtu ki xya ku	40000
+二脚	ni kya ku	40000
+二脚	ni ki xya ku	40000
+発送駅	ha xtu so u e ki	40000
+簿記係	bo ki ga ka ri	40000
+立ち飛び	ta ti to bi	40000
+後勝ち	a to ga ti	40000
+先勝ち	sa ki ga ti	40000
+指図人	sa si zu ni nn	40000
+ブラシレスモーター	bu ra si re su mo - ta -	40000
+ブラシレスモーター	BU RA SI RE SU MO - TA -	40000
+ブラシレス	bu ra si re su	40000
+ブラシレス	BU RA SI RE SU	40000
+ちんぐり返し	ti nn gu ri ga e si	40000
+ちんぐり返し	ti nn gu ri ka e si	40000
+水溶き片栗粉	mi zu to ki ka ta ku ri ko	40000
+最盛	sa i se i	40000
+こちら側	ko ti ra ga wa	40000
+此方側	ko ti ra ga wa	40000
+高齢社会	ko u re i sya ka i	40000
+高齢社会	ko u re i si xya ka i	40000
+小口切り	ko gu ti gi ri	40000
+証拠調べ	syo u ko si ra be	40000
+証拠調べ	si xyo u ko si ra be	40000
+本城	ho nn zyo u	40000
+本城	ho nn zi xyo u	40000
+商工会	syo u ko u ka i	40000
+商工会	si xyo u ko u ka i	40000
+住民参加	zyu u mi nn sa nn ka	40000
+住民参加	zi xyu u mi nn sa nn ka	40000
+斜度	sya do	40000
+斜度	si xya do	40000
+木阿弥	mo ku a mi	40000
+文化部	bu nn ka bu	40000
+会話文	ka i wa bu nn	40000
+主祭	syu sa i	40000
+主祭	si xyu sa i	40000
+晩発	ba nn pa tu	40000
+投映	to u e i	40000
+混生	ko nn se i	40000
+小体	ko te i	40000
+同日付	do u zi tu du ke	40000
+同日付け	do u zi tu du ke	40000
+ヌン活	nu nn ka tu	40000
+アクセサリーシュー	a ku se sa ri - syu -	40000
+アクセサリーシュー	A KU SE SA RI - SYU -	40000
+アクセサリーシュー	a ku se sa ri - si xyu -	40000
+アクセサリーシュー	A KU SE SA RI - SI XYU -	40000
+液晶モニター	e ki syo u mo ni ta -	40000
+液晶モニター	e ki si xyo u mo ni ta -	40000
+記憶色	ki o ku syo ku	40000
+記憶色	ki o ku si xyo ku	40000
+印象色	i nn syo u syo ku	40000
+印象色	i nn syo u si xyo ku	40000
+印象色	i nn si xyo u syo ku	40000
+印象色	i nn si xyo u si xyo ku	40000
+シャープネス	sya - pu ne su	40000
+シャープネス	SYA - PU NE SU	40000
+シャープネス	si xya - pu ne su	40000
+シャープネス	SI XYA - PU NE SU	40000
+暗射地図	a nn sya ti zu	40000
+暗射地図	a nn si xya ti zu	40000
+減軽	ge nn ke i	40000
+轟雷	go u ra i	40000
+轟き渡る	to do ro ki wa ta ru	40000
+制圧射撃	se i a tu sya ge ki	40000
+制圧射撃	se i a tu si xya ge ki	40000
+貸し与える	ka si a ta e ru	40000
+隣市	ri nn si	40000
+空洞レンガ	ku u do u re nn ga	40000
+空洞煉瓦	ku u do u re nn ga	40000
+屈折光学	ku xtu se tu ko u ga ku	40000
+捜査第一課	so u sa da i i xtu ka	40000
+捜査第１課	so u sa da i i xtu ka	40000
+捜査第二課	so u sa da i ni ka	40000
+捜査第２課	so u sa da i ni ka	40000
+捜査第三課	so u sa da i sa nn ka	40000
+捜査第３課	so u sa da i sa nn ka	40000
+捜査第四課	so u sa da i yo nn ka	40000
+捜査第４課	so u sa da i yo nn ka	40000
+滑らか	su be ra ka	40000
+Eijiro転がり出る	ko ro ga ri de ru	40000
+神的	si nn te ki	40000
+琉金	ryu u ki nn	40000
+琉金	ri xyu u ki nn	40000
+GG5縦位置	ta te i ti	40000
+横位置	yo ko i ti	40000
+鑑賞者	ka nn syo u sya	40000
+鑑賞者	ka nn syo u si xya	40000
+鑑賞者	ka nn si xyo u sya	40000
+鑑賞者	ka nn si xyo u si xya	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
@@ -452651,3 +452924,5 @@ GNU一般公衆ライセンス	gu nu - i xtu pa nn ko u si xyu u ra i se nn su	4
 ミニクーパー	mi ni ku - pa -	40000
 ミニクーパー	MI NI KU - PA -	40000
 海援隊	ka i e nn ta i	40000
+グロック	gu ro xtu ku	40000
+グロック	GU RO XTU KU	40000
