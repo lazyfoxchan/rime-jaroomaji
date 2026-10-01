@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-09-24"
+version: "2026-10-01"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -47751,8 +47751,8 @@ WASP	wa su pu	40000
 横降り	yo ko bu ri	40000
 横合い	yo ko a i	40000
 横合	yo ko a i	40000
-横座標	o u za hyo u	40000
-横座標	o u za hi xyo u	40000
+横座標	yo ko za hyo u	40000
+横座標	yo ko za hi xyo u	40000
 横死	o u si	40000
 横軸	yo ko zi ku	40001
 横縞	yo ko zi ma	40000
@@ -57395,7 +57395,9 @@ WASP	wa su pu	40000
 仰る	o xtu si xya ru	40002
 仰有る	o xtu sya ru	40000
 仰有る	o xtu si xya ru	40000
+仰く	a o no ku	40000
 仰のく	a o no ku	40000
+仰ける	a o no ke ru	40000
 仰のける	a o no ke ru	40000
 おっしゃる通り	o xtu sya ru to o ri	40000
 おっしゃる通り	o xtu si xya ru to o ri	40000
@@ -59271,7 +59273,6 @@ WASP	wa su pu	40000
 経る	he ru	40002
 歴る	he ru	40000
 経緯	ke i i	40002
-経緯	i ki sa tu	40002
 経営	ke i e i	40002
 経営グループ	ke i e i gu ru - pu	40000
 経営学	ke i e i ga ku	40000
@@ -69357,9 +69358,6 @@ WASP	wa su pu	40000
 辞表	zi hi xyo u	40002
 辞令	zi re i	40002
 鹿	si ka	40002
-鹿	ka se gi	40002
-鹿	ka	40002
-鹿	ro ku	40002
 鹿児島県	ka go si ma ke nn	40000
 鹿追	si ka o i	40000
 式	si ki	40002
@@ -94640,7 +94638,7 @@ WASP	wa su pu	40000
 肉料理	ni ku ryo u ri	40000
 肉料理	ni ku ri xyo u ri	40000
 肉類	ni ku ru i	40001
-肉まん	ni ku ma nn	40000
+肉まん	ni ku ma nn	40002
 肉饅	ni ku ma nn	40000
 肉饅頭	ni ku ma nn zyu u	40000
 肉饅頭	ni ku ma nn zi xyu u	40000
@@ -113358,8 +113356,6 @@ WASP	wa su pu	40000
 重傷	zyu u si xyo u	40002
 重傷	zi xyu u syo u	40002
 重傷	zi xyu u si xyo u	40002
-重傷	o mo de	40002
-重手	o mo de	40000
 重犯	zyu u ha nn	40000
 重犯	zi xyu u ha nn	40000
 重犯	zyu u bo nn	40000
@@ -135707,7 +135703,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 睨め付ける	ni ra me tu ke ru	40000
 睨めつける	ni ra me tu ke ru	40000
 仰向く	a o mu ku	40000
-仰むく	a o mu ku	40000
 迎え火	mu ka e bi	40000
 ご一新	go i xtu si nn	40000
 御一新	go i xtu si nn	40000
@@ -195146,8 +195141,8 @@ QT延長症候群	ki xyu - te xi - e nn ti xyo u si xyo u ko u gu nn	40000
 有道	yu u to u	40000
 責付く	se xtu tu ku	40000
 責っ付く	se xtu tu ku	40000
-大事を取る	da i zi wo to ru	40000
 大事をとる	da i zi wo to ru	40000
+大事を取る	da i zi wo to ru	40000
 ガシガシ	ga si ga si	40002
 ガシガシ	GA SI GA SI	40002
 がしがし	ga si ga si	40000
@@ -201940,7 +201935,7 @@ Wimdows	u i nn do u zu	40000
 メッセージタイトル	me xtu se - zi ta i to ru	40000
 メッセージタイトル	ME XTU SE - ZI TA I TO RU	40000
 間を置く	ma wo o ku	40000
-間を置く	a i da wo o ku	40000
+間をおく	ma wo o ku	40000
 社員同士	sya i nn do u si	40000
 社員同士	si xya i nn do u si	40000
 おごる平家久しからず	o go ru he i ke hi sa si ka ra zu	40000
@@ -300582,7 +300577,6 @@ Xマス	e xtu ku su ma su	40000
 垂乳女	ta ra ti me	40000
 足乳女	ta ra ti me	40000
 垂乳根	ta ra ti ne	40000
-足乳根	ta ra ti ne	40000
 田の面	ta no mo	40000
 田の面	ta no mu	40000
 敷島の道	si ki si ma no mi ti	40000
@@ -304513,6 +304507,7 @@ NaN	na nn	40000
 廃版	ha i ba nn	40000
 自動化量産	zi do u ka ryo u sa nn	40000
 自動化量産	zi do u ka ri xyo u sa nn	40000
+箔をつける	ha ku wo tu ke ru	40000
 箔を付ける	ha ku wo tu ke ru	40000
 美粧	bi syo u	40000
 美粧	bi si xyo u	40000
@@ -344341,7 +344336,7 @@ DNA型鑑定	de xi - e nu e - ga ta ka nn te i	40000
 ポートマントー	PO - TO MA NN TO -	40000
 クラウドサービス	ku ra u do sa - bi su	40000
 クラウドサービス	KU RA U DO SA - BI SU	40000
-士	si	40000
+士	si	40002
 寡	ka	40000
 好かん	su ka nn	40000
 ぜんご	ze nn go	40000
@@ -437479,6 +437474,7 @@ AIスロップ	e - a i su ro xtu pu	40000
 息を抜く	i ki wo nu ku	40000
 行間を読み取る	gyo u ka nn wo yo mi to ru	40000
 行間を読み取る	gi xyo u ka nn wo yo mi to ru	40000
+紙芝居アニメ	ka mi si ba i a ni me	40000
 山羊汁	ya gi zi ru	40000
 ヤギ汁	ya gi zi ru	40000
 やぎ汁	ya gi zi ru	40000
@@ -437489,6 +437485,7 @@ AIスロップ	e - a i su ro xtu pu	40000
 呼笛	yo bi bu e	40000
 呼び笛	yo bi bu e	40000
 呼笛	ko te ki	40000
+賜邸	si te i	40000
 片割れ月	ka ta wa re du ki	40000
 片われ月	ka ta wa re du ki	40000
 片割月	ka ta wa re du ki	40000
@@ -437502,7 +437499,15 @@ AIスロップ	e - a i su ro xtu pu	40000
 貸自転車	ka si zi te nn si xya	40000
 想定線	so u te i se nn	40000
 指紋センサー	si mo nn se nn sa -	40000
+越境者	e xtu kyo u sya	40000
+越境者	e xtu kyo u si xya	40000
+越境者	e xtu ki xyo u sya	40000
+越境者	e xtu ki xyo u si xya	40000
 平野部	he i ya bu	40000
+ティルカヨ	thi ru ka yo	40000
+ティルカヨ	THI RU KA YO	40000
+ティルカヨ	te xi ru ka yo	40000
+ティルカヨ	TE XI RU KA YO	40000
 ディアドコイ	dhi a do ko i	40000
 ディアドコイ	DHI A DO KO I	40000
 ディアドコイ	de xi a do ko i	40000
@@ -437512,18 +437517,89 @@ AIスロップ	e - a i su ro xtu pu	40000
 アイスバイル	A I SU BA I RU	40000
 逆プロポーズ	gya ku pu ro po - zu	40000
 逆プロポーズ	gi xya ku pu ro po - zu	40000
+饅	ma nn	40000
 ゲームメイク	ge - mu me i ku	40000
 ゲームメイク	GE - MU ME I KU	40000
 ゲームメーク	ge - mu me - ku	40000
 ゲームメーク	GE - MU ME - KU	40000
 政府当局	se i hu to u kyo ku	40000
 政府当局	se i hu to u ki xyo ku	40000
+既セク	ki se ku	40000
+未セク	mi se ku	40000
 セケス	se ke su	40000
 セケス	SE KE SU	40000
 日本標準時子午線	ni ho nn hyo u zyu nn zi si go se nn	40000
 日本標準時子午線	ni ho nn hyo u zi xyu nn zi si go se nn	40000
 日本標準時子午線	ni ho nn hi xyo u zyu nn zi si go se nn	40000
 日本標準時子午線	ni ho nn hi xyo u zi xyu nn zi si go se nn	40000
+敵国条項	te ki ko ku zyo u ko u	40000
+敵国条項	te ki ko ku zi xyo u ko u	40000
+旧敵国条項	kyu u te ki ko ku zyo u ko u	40000
+旧敵国条項	kyu u te ki ko ku zi xyo u ko u	40000
+旧敵国条項	ki xyu u te ki ko ku zyo u ko u	40000
+旧敵国条項	ki xyu u te ki ko ku zi xyo u ko u	40000
+ビーズアート	bi - zu a - to	40000
+ビーズアート	BI - ZU A - TO	40000
+カーボローディング	ka - bo ro - dhi nn gu	40000
+カーボローディング	KA - BO RO - DHI NN GU	40000
+カーボローディング	ka - bo ro - de xi nn gu	40000
+カーボローディング	KA - BO RO - DE XI NN GU	40000
+アイドル前髪	a i do ru ma e ga mi	40000
+循環級数	zyu nn ka nn kyu u su u	40000
+循環級数	zyu nn ka nn ki xyu u su u	40000
+循環級数	zi xyu nn ka nn kyu u su u	40000
+循環級数	zi xyu nn ka nn ki xyu u su u	40000
+自変数	zi he nn su u	40000
+連比例	re nn pi re i	40000
+整除数	se i zyo su u	40000
+整除数	se i zi xyo su u	40000
+素髪	su ga mi	40000
+範式	ha nn si ki	40000
+横距	o u kyo	40000
+横距	o u ki xyo	40000
+構造湖	ko u zo u ko	40000
+急速充電器	kyu u so ku zyu u de nn ki	40000
+急速充電器	kyu u so ku zi xyu u de nn ki	40000
+急速充電器	ki xyu u so ku zyu u de nn ki	40000
+急速充電器	ki xyu u so ku zi xyu u de nn ki	40000
+雪山獅子旗	se tu za nn si si ki	40000
+砂じょう	sa zyo u	40000
+砂じょう	sa zi xyo u	40000
+砂瓤	sa zyo u	40000
+砂瓤	sa zi xyo u	40000
+正遷宮	syo u se nn gu u	40000
+正遷宮	si xyo u se nn gu u	40000
+上遷宮	syo u se nn gu u	40000
+上遷宮	si xyo u se nn gu u	40000
+硝酸銅	syo u sa nn do u	40000
+硝酸銅	si xyo u sa nn do u	40000
+遺体衛生保全	i ta i e i se i ho ze nn	40000
+経緯	i ki sa tu	40000
+鹿	ka se gi	40000
+鹿	ka	40000
+重手	o mo de	40000
+重傷	o mo de	40000
+抗酸化作用	ko u sa nn ka sa yo u	40000
+ヤード	ya - do	40001
+ヤード	YA - DO	40001
+LNGタンカー	e ru e nu zi - ta nn ka -	40000
+ＬＮＧタンカー	e ru e nu zi - ta nn ka -	39999
+混成軌道	ko nn se i ki do u	40000
+引っ括めて	hi xtu ku ru me te	40000
+足で稼ぐ	a si de ka se gu	40000
+にこにこペース	ni ko ni ko pe - su	40000
+市場町	i ti ba ma ti	40000
+遺存	i so nn	40000
+ダブルダブル	da bu ru da bu ru	40000
+ダブルダブル	DA BU RU DA BU RU	40000
+LNG船	e ru e nu zi - se nn	40000
+ＬＮＧ船	e ru e nu zi - se nn	39999
+ムエット	mu e xtu to	40000
+ムエット	MU E XTU TO	40000
+ムイエット	mu i e xtu to	40000
+ムイエット	MU I E XTU TO	40000
+トリプルダブル	to ri pu ru da bu ru	40000
+トリプルダブル	TO RI PU RU DA BU RU	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
