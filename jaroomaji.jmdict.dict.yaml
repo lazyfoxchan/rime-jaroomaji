@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-10-01"
+version: "2026-10-08"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -2116,10 +2116,10 @@ Tバック	te xi - ba xtu ku	40002
 ぱちった	pa ti xtu ta	40000
 ぱちって	pa ti xtu te	40000
 ぱちっと	pa ti xtu to	40000
-パクリ	pa ku ri	40000
-パクリ	PA KU RI	40000
-ぱくり	pa ku ri	40000
+パクリ	pa ku ri	40002
+パクリ	PA KU RI	40002
 ぱっくり	pa xtu ku ri	40000
+ぱくり	pa ku ri	40000
 パッチリ	pa xtu ti ri	40000
 パッチリ	PA XTU TI RI	40000
 ぱっちり	pa xtu ti ri	40000
@@ -32782,6 +32782,10 @@ Fortram	fu xo - to ra nn	40000
 フォーマッタ	FWO - MA XTU TA	40000
 フォーマッタ	fu xo - ma xtu ta	40000
 フォーマッタ	FU XO - MA XTU TA	40000
+フォーマッター	fwo - ma xtu ta -	40000
+フォーマッター	FWO - MA XTU TA -	40000
+フォーマッター	fu xo - ma xtu ta -	40000
+フォーマッター	FU XO - MA XTU TA -	40000
 フォーマッティング	fwo - ma xtu thi nn gu	40000
 フォーマッティング	FWO - MA XTU THI NN GU	40000
 フォーマッティング	fwo - ma xtu te xi nn gu	40000
@@ -47426,6 +47430,7 @@ WASP	wa su pu	40000
 鉛	na ma ri	40002
 鉛管	e nn ka nn	40000
 鉛色	na ma ri i ro	40000
+鉛製	na ma ri se i	40000
 鉛製	e nn se i	40000
 鉛中毒	na ma ri tyu u do ku	40000
 鉛中毒	na ma ri ti xyu u do ku	40000
@@ -49822,7 +49827,6 @@ WASP	wa su pu	40000
 荷為替	ni ga wa se	40000
 荷造り	ni du ku ri	40002
 荷作り	ni du ku ri	40002
-荷づくり	ni du ku ri	40000
 荷札	ni hu da	40002
 荷車	ni gu ru ma	40000
 荷主	ni nu si	40001
@@ -51905,7 +51909,6 @@ WASP	wa su pu	40000
 刈り根	ka ri ne	40000
 刈り取り機	ka ri to ri ki	40000
 刈り取る	ka ri to ru	40001
-刈取る	ka ri to ru	40000
 刈り手	ka ri te	40000
 刈り上げる	ka ri a ge ru	40000
 刈り跡	ka ri a to	40000
@@ -80185,7 +80188,6 @@ WASP	wa su pu	40000
 吹き捲る	hu ki ma ku ru	40000
 吹き捲くる	hu ki ma ku ru	40000
 吹き荒れる	hu ki a re ru	40001
-吹荒れる	hu ki a re ru	40000
 吹き込む	hu ki ko mu	40002
 吹込む	hu ki ko mu	40000
 吹き散らす	hu ki ti ra su	40000
@@ -94738,8 +94740,6 @@ WASP	wa su pu	40000
 日米貿易	ni ti be i bo u e ki	40000
 日歩	hi bu	40000
 日暮れ	hi gu re	40002
-日ぐれ	hi gu re	40000
-日暮	hi gu re	40000
 日報	ni xtu po u	40002
 日没	ni ti bo tu	40002
 日本画	ni ho nn ga	40002
@@ -97655,7 +97655,7 @@ WASP	wa su pu	40000
 鄙猥	hi wa i	40000
 卑陋	hi ro u	40000
 鄙陋	hi ro u	40000
-否	hi	40002
+否	hi	40001
 否か応か	hi ka o u ka	40000
 否でも応でも	i ya de mo o u de mo	40000
 嫌でも応でも	i ya de mo o u de mo	40000
@@ -115756,7 +115756,6 @@ WASP	wa su pu	40000
 打ち捲る	u ti ma ku ru	40000
 うっ血	u xtu ke tu	40000
 鬱血	u xtu ke tu	40000
-欝血	u xtu ke tu	40000
 鬱蒼	u xtu so u	40000
 欝蒼	u xtu so u	40000
 鬱葱	u xtu so u	40000
@@ -145836,10 +145835,9 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 山越え	ya ma go e	40000
 山おろし	ya ma o ro si	40000
 山颪	ya ma o ro si	40000
-山間	ya ma a i	40000
+山間	ya ma a i	40001
 山あい	ya ma a i	40000
 山合い	ya ma a i	40000
-山間	ya ma ma	40000
 山開き	ya ma bi ra ki	40001
 山塊	sa nn ka i	40001
 山稜	sa nn ryo u	40000
@@ -163520,6 +163518,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 後昆	ko u ko nn	40000
 光彩陸離	ko u sa i ri ku ri	40000
 尻座	ko u za	40000
+尻坐	ko u za	40000
 絞罪	ko u za i	40000
 皇嗣	ko u si	40000
 購書	ko u syo	40000
@@ -166933,7 +166932,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 深い愛情	hu ka i a i zyo u	40000
 深い愛情	hu ka i a i zi xyo u	40000
 深い関係	hu ka i ka nn ke i	40000
-深い霧	hu ka i ki ri	40000
 不覚を取る	hu ka ku wo to ru	40000
 不覚をとる	hu ka ku wo to ru	40000
 不活性化	hu ka xtu se i ka	40000
@@ -171564,8 +171562,8 @@ PETボトル	pe xtu to bo to ru	40000
 在庫調整	za i ko ti xyo u se i	40000
 材料費	za i ryo u hi	40000
 材料費	za i ri xyo u hi	40000
-作業員	sa gyo u i nn	40000
-作業員	sa gi xyo u i nn	40000
+作業員	sa gyo u i nn	40001
+作業員	sa gi xyo u i nn	40001
 作業仮説	sa gyo u ka se tu	40000
 作業仮説	sa gi xyo u ka se tu	40000
 作業時間	sa gyo u zi ka nn	40000
@@ -272748,10 +272746,10 @@ F層	e hu so u	40000
 疣鯛	i bo da i	40000
 雀の稗	su zu me no hi e	40000
 西洋箱柳	se i yo u ha ko ya na gi	40000
-猩猩草	syo u zyo u so u	40000
-猩猩草	syo u zi xyo u so u	40000
-猩猩草	si xyo u zyo u so u	40000
-猩猩草	si xyo u zi xyo u so u	40000
+猩々草	syo u zyo u so u	40000
+猩々草	syo u zi xyo u so u	40000
+猩々草	si xyo u zyo u so u	40000
+猩々草	si xyo u zi xyo u so u	40000
 一等鯛	i xtu to u da i	40000
 パラゴムの木	pa ra go mu no ki	40000
 三井寺歩行虫	mi i de ra go mi mu si	40000
@@ -312792,6 +312790,7 @@ Cクレフ	si - ku re hu	40000
 薬物投与	ya ku bu tu to u yo	40000
 だって	da xtu te	40002
 たって	ta xtu te	40002
+ったって	xtu ta xtu te	40000
 重軽傷者	zyu u ke i syo u sya	40000
 重軽傷者	zyu u ke i syo u si xya	40000
 重軽傷者	zyu u ke i si xyo u sya	40000
@@ -339971,6 +339970,7 @@ H形鋼	e xtu ti ga ta ko u	40000
 島外	to u ga i	40000
 内紫	u ti mu ra sa ki	40000
 藪虱	ya bu zi ra mi	40000
+藪蝨	ya bu zi ra mi	40000
 九輪草	ku ri nn so u	40000
 形質人類学	ke i si tu zi nn ru i ga ku	40000
 胡同	hu - to nn	40000
@@ -377061,6 +377061,7 @@ JRパス	zi xe - a - ru pa su	40000
 試遊	si yu u	40000
 試遊台	si yu u da i	40000
 矢も盾もたまらず	ya mo ta te mo ta ma ra zu	40000
+矢も楯もたまらず	ya mo ta te mo ta ma ra zu	40000
 矢も盾も堪らず	ya mo ta te mo ta ma ra zu	40000
 縦巻き	ta te ma ki	40000
 アクションパズル	a ku syo nn pa zu ru	40000
@@ -437522,6 +437523,8 @@ AIスロップ	e - a i su ro xtu pu	40000
 ゲームメイク	GE - MU ME I KU	40000
 ゲームメーク	ge - mu me - ku	40000
 ゲームメーク	GE - MU ME - KU	40000
+ラッキーホール	ra xtu ki - ho - ru	40000
+ラッキーホール	RA XTU KI - HO - RU	40000
 政府当局	se i hu to u kyo ku	40000
 政府当局	se i hu to u ki xyo ku	40000
 既セク	ki se ku	40000
@@ -437585,9 +437588,15 @@ AIスロップ	e - a i su ro xtu pu	40000
 LNGタンカー	e ru e nu zi - ta nn ka -	40000
 ＬＮＧタンカー	e ru e nu zi - ta nn ka -	39999
 混成軌道	ko nn se i ki do u	40000
+死文化	si bu nn ka	40000
+天文科学館	te nn mo nn ka ga ku ka nn	40000
 引っ括めて	hi xtu ku ru me te	40000
 足で稼ぐ	a si de ka se gu	40000
+ニコニコペース	ni ko ni ko pe - su	40000
+ニコニコペース	NI KO NI KO PE - SU	40000
 にこにこペース	ni ko ni ko pe - su	40000
+タピオカパール	ta pi o ka pa - ru	40000
+タピオカパール	TA PI O KA PA - RU	40000
 市場町	i ti ba ma ti	40000
 遺存	i so nn	40000
 ダブルダブル	da bu ru da bu ru	40000
@@ -437600,6 +437609,50 @@ LNG船	e ru e nu zi - se nn	40000
 ムイエット	MU I E XTU TO	40000
 トリプルダブル	to ri pu ru da bu ru	40000
 トリプルダブル	TO RI PU RU DA BU RU	40000
+速度警告音	so ku do ke i ko ku o nn	40000
+キンコン	ki nn ko nn	40000
+キンコン	KI NN KO NN	40000
+ヘホ	he ho	40000
+ヘホ	HE HO	40000
+女装子	zyo so ko	40000
+女装子	zi xyo so ko	40000
+波乱含み	ha ra nn bu ku mi	40000
+波瀾含み	ha ra nn bu ku mi	40000
+閉経周辺期	he i ke i syu u he nn ki	40000
+閉経周辺期	he i ke i si xyu u he nn ki	40000
+秋田美人	a ki ta bi zi nn	40000
+フーデリ	hu - de ri	40000
+フーデリ	HU - DE RI	40000
+頭師	ka si ra si	40000
+掌部	syo u bu	40000
+掌部	si xyo u bu	40000
+パクり	pa ku ri	40000
+カワイイメタル	ka wa i i me ta ru	40000
+カワイイメタル	KA WA I I ME TA RU	40000
+正宮	syo u gu u	40000
+正宮	si xyo u gu u	40000
+省印	syo u i nn	40000
+省印	si xyo u i nn	40000
+超知能	tyo u ti no u	40000
+超知能	ti xyo u ti no u	40000
+塵雲	zi nn u nn	40000
+アンフェ	a nn fwe	40000
+アンフェ	A NN FWE	40000
+アンフェ	a nn fu xe	40000
+アンフェ	A NN FU XE	40000
+三七草	sa nn si ti so u	40000
+山漆草	sa nn si ti so u	40000
+小行李	syo u ko u ri	40000
+小行李	si xyo u ko u ri	40000
+パワーチャージ	pa wa - tya - zi	40000
+パワーチャージ	PA WA - TYA - ZI	40000
+パワーチャージ	pa wa - ti xya - zi	40000
+パワーチャージ	PA WA - TI XYA - ZI	40000
+プロピオル酸	pu ro pi o ru sa nn	40000
+シャントリ	sya nn to ri	40000
+シャントリ	SYA NN TO RI	40000
+シャントリ	si xya nn to ri	40000
+シャントリ	SI XYA NN TO RI	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
