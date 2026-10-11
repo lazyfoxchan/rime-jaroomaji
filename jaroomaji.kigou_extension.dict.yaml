@@ -1,0 +1,47 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 古文書向けの仮名記号拡張
+#
+
+---
+name: jaroomaji.kigou_extension
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+#　踊り字
+々	do u	80000
+々	o na ji	80000
+々	o do ri ji	80000
+々	ku ri ka e shi	80000
+ヽ	ku ri ka e shi	80000
+ゝ	ku ri ka e shi	80000
+〻	ku ri ka e shi	80000
+〃	ku ri ka e shi	80000
+## 一の字点
+ゝ	ichi no ji ten n	80000
+ヽ	ichi no ji ten n	80000
+ゞ	ichi no ji ten n	80000
+ヾ	ichi no ji ten n	80000
+## 二の字点
+〻	ni no ji ten n	80000
+## ノノ点
+〃	no no ten n	80000
+## くの字点
+〳	ku no ji ten n	80000
+〴	ku no ji ten n	80000
+〵	ku no ji ten n	80000
+〱	ku no ji ten n	80000
+〲	ku no ji ten n	80000
+#　合略仮名
+ゟ	yo ri	80000
+ヿ	ko to	80000
+𬼂	na ri	80000
+〆	shi me	80000
+𪜈	to mo	80000
+𬼀	shi te	80000
+乄	shi me	80000
+# ほかの記号
+〼	ma su	80000
