@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-10-08"
+version: "2026-10-15"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -1239,8 +1239,6 @@ Tバック	te xi - ba xtu ku	40002
 ジタバタ	ZI TA BA TA	40000
 じたばた	zi ta ba ta	40000
 じっくり	zi xtu ku ri	40002
-凝乎と	zi xtu to	40000
-凝乎と	zi i xtu to	40000
 じっと見る	zi xtu to mi ru	40000
 じめじめ	zi me zi me	40002
 ジメジメ	zi me zi me	40000
@@ -24364,10 +24362,6 @@ TVゲーム	te re bi ge - mu	40000
 デビュタント	DE BI XYU TA NN TO	40000
 デビル	de bi ru	40000
 デビル	DE BI RU	40000
-デヴィル	de vi ru	40000
-デヴィル	DE VI RU	40000
-デヴィル	de vu xi ru	40000
-デヴィル	DE VU XI RU	40000
 デビルズフードケーキ	de bi ru zu hu - do ke - ki	40000
 デビルズフードケーキ	DE BI RU ZU HU - DO KE - KI	40000
 デビルフィッシュ	de bi ru fwi xtu syu	40000
@@ -81783,8 +81777,6 @@ WASP	wa su pu	40000
 乞い	ko i	40000
 請け合う	u ke a u	40001
 受け合う	u ke a u	40000
-請合う	u ke a u	40000
-受合う	u ke a u	40000
 請け負う	u ke o u	40002
 請願	se i ga nn	40002
 請求	se i kyu u	40002
@@ -84197,8 +84189,6 @@ WASP	wa su pu	40000
 組換え	ku mi ka e	40000
 組み替える	ku mi ka e ru	40001
 組み換える	ku mi ka e ru	40000
-組替える	ku mi ka e ru	40000
-組換える	ku mi ka e ru	40000
 組み入れる	ku mi i re ru	40001
 組入れる	ku mi i re ru	40000
 組み付く	ku mi tu ku	40000
@@ -91736,7 +91726,6 @@ WASP	wa su pu	40000
 塗り潰し	nu ri tu bu si	40000
 塗り絵	nu ri e	40000
 ぬり絵	nu ri e	40000
-塗絵	nu ri e	40000
 塗りこむ	nu ri ko mu	40000
 塗り込む	nu ri ko mu	40000
 塗り替える	nu ri ka e ru	40002
@@ -93536,7 +93525,6 @@ WASP	wa su pu	40000
 突き動かす	tu ki u go ka su	40000
 衝き動かす	tu ki u go ka su	40000
 突き破る	tu ki ya bu ru	40001
-突破る	tu ki ya bu ru	40000
 突き抜く	tu ki nu ku	40000
 突抜く	tu ki nu ku	40000
 突き抜ける	tu ki nu ke ru	40002
@@ -94682,7 +94670,7 @@ WASP	wa su pu	40000
 日豪	ni ti go u	40000
 日濠	ni ti go u	40000
 日頃	hi go ro	40002
-日ごろ	hi go ro	40000
+日ごろ	hi go ro	40002
 日傘	hi ga sa	40001
 日産	ni xtu sa nn	40002
 日誌	ni xtu si	40002
@@ -116366,14 +116354,9 @@ WASP	wa su pu	40000
 軽軽しい	ka ru ga ru si i	40000
 軽々しい	ka ro ga ro si i	40001
 軽軽しい	ka ro ga ro si i	40000
-歌留多	ka ru ta	40002
+歌留多	ka ru ta	40000
 骨牌	ka ru ta	40000
 加留多	ka ru ta	40000
-嘉留太	ka ru ta	40000
-軽板	ka ru ta	40000
-軽多	ka ru ta	40000
-賀留多	ka ru ta	40000
-哥留多	ka ru ta	40000
 枯れ木	ka re ki	40002
 枯木	ka re ki	40002
 枯木	ko bo ku	40002
@@ -117484,8 +117467,6 @@ WASP	wa su pu	40000
 遮断器	si xya da nn ki	40002
 首位	syu i	40002
 首位	si xyu i	40002
-主位	syu i	40000
-主位	si xyu i	40000
 主意	syu i	40000
 主意	si xyu i	40000
 修好	syu u ko u	40001
@@ -120716,8 +120697,8 @@ WASP	wa su pu	40000
 甦る	yo mi ga e ru	40002
 蘇える	yo mi ga e ru	40000
 甦える	yo mi ga e ru	40000
-夜店	yo mi se	40000
-夜見世	yo mi se	40001
+夜店	yo mi se	40001
+夜見世	yo mi se	40000
 読み出し	yo mi da si	40000
 読出し	yo mi da si	40000
 読み取り	yo mi to ri	40002
@@ -121343,8 +121324,8 @@ WASP	wa su pu	40000
 数奇屋造り	su ki ya du ku ri	40000
 玉に瑕	ta ma ni ki zu	40000
 玉に傷	ta ma ni ki zu	40000
-魂送り	ta ma o ku ri	40000
 霊送り	ta ma o ku ri	40000
+魂送り	ta ma o ku ri	40000
 嘆じる	ta nn zi ru	40000
 歎じる	ta nn zi ru	40000
 嘆ずる	ta nn zu ru	40000
@@ -125410,10 +125391,6 @@ WASP	wa su pu	40000
 用務員	yo u mu i nn	40001
 養い	ya si na i	40001
 落ち着ける	o ti tu ke ru	40000
-落ちつける	o ti tu ke ru	40000
-落着ける	o ti tu ke ru	40000
-落ち付ける	o ti tu ke ru	40000
-落付ける	o ti tu ke ru	40000
 猟犬座	ryo u ke nn za	40000
 猟犬座	ri xyo u ke nn za	40000
 りょうけん座	ryo u ke nn za	40000
@@ -128586,10 +128563,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 襟度	ki nn do	40000
 襟懐	ki nn ka i	40000
 耐え難い	ta e ga ta i	40000
-耐えがたい	ta e ga ta i	40000
 堪え難い	ta e ga ta i	40000
-堪えがたい	ta e ga ta i	40000
-耐難い	ta e ga ta i	40000
 泣き止む	na ki ya mu	40000
 泣きやむ	na ki ya mu	40000
 故実	ko zi tu	40000
@@ -133725,8 +133699,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 金だらい	ka na da ra i	40000
 金盥	ka na da ra i	40000
 金盥	ka na ta ra i	40000
-金タライ	ka na ta ra i	40000
-金たらい	ka na ta ra i	40000
 金融界	ki nn yu u ka i	40000
 金融恐慌	ki nn yu u kyo u ko u	40000
 金融恐慌	ki nn yu u ki xyo u ko u	40000
@@ -146925,8 +146897,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 如才ない	zi xyo sa i na i	40000
 如才無い	zyo sa i na i	40000
 如才無い	zi xyo sa i na i	40000
-如在ない	zyo sa i na i	40000
-如在ない	zi xyo sa i na i	40000
 如在無い	zyo sa i na i	40000
 如在無い	zi xyo sa i na i	40000
 如何ばかり	i ka ba ka ri	40000
@@ -154011,6 +153981,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 眼の球	me no ta ma	40000
 目色	me i ro	40000
 目の色	me no i ro	40000
+眼の色	me no i ro	40000
 目地	me zi	40000
 目早い	me ba ya i	40000
 目角	me ka do	40000
@@ -183986,8 +183957,6 @@ SALT	so ru to	40000
 家具調度	ka gu ti xyo u do	40000
 家探し	i e sa ga si	40000
 家捜し	i e sa ga si	40000
-家探し	ya sa ga si	40000
-家捜し	ya sa ga si	40000
 歌いまくる	u ta i ma ku ru	40000
 歌い捲る	u ta i ma ku ru	40000
 介する	ka i su ru	40001
@@ -197804,8 +197773,6 @@ C＋＋言語	si - pu ra su pu ra su ge nn go	40000
 漫研	ma nn ke nn	40000
 請け合い	u ke a i	40000
 受け合い	u ke a i	40000
-請合い	u ke a i	40000
-受合い	u ke a i	40000
 九仞の功を一簣に虧く	kyu u zi nn no ko u wo i xtu ki ni ka ku	40000
 九仞の功を一簣に虧く	ki xyu u zi nn no ko u wo i xtu ki ni ka ku	40000
 論文博士	ro nn bu nn ha ka se	40000
@@ -309159,7 +309126,6 @@ PER	pa -	40000
 リア充	ri a zi xyu u	40000
 穴兄弟	a na kyo u da i	40000
 穴兄弟	a na ki xyo u da i	40000
-シロウト童貞	si ro u to do u te i	40000
 素人童貞	si ro u to do u te i	40000
 ヤラハタ	ya ra ha ta	40000
 ヤラハタ	YA RA HA TA	40000
@@ -356681,8 +356647,8 @@ NEP	ne xtu pu	40000
 アンカリング	A NN KA RI NN GU	40000
 証果	syo u ka	40000
 証果	si xyo u ka	40000
-てる	te ru	40000
-でる	de ru	40000
+てる	te ru	40002
+でる	de ru	40002
 てく	te ku	40000
 でく	de ku	40000
 たげる	ta ge ru	40000
@@ -402592,6 +402558,8 @@ MARCH	ma - ti	40000
 大東亜帝国	da i to u a te i ko ku	40000
 膣錠	ti tu zyo u	40000
 膣錠	ti tu zi xyo u	40000
+腟錠	ti tu zyo u	40000
+腟錠	ti tu zi xyo u	40000
 撃ちまくる	u ti ma ku ru	40000
 撃ち捲る	u ti ma ku ru	40000
 おじいちゃん子	o zi i tya nn ko	40000
@@ -437499,6 +437467,8 @@ AIスロップ	e - a i su ro xtu pu	40000
 貸自転車	ka si zi te nn sya	40000
 貸自転車	ka si zi te nn si xya	40000
 想定線	so u te i se nn	40000
+発表日	ha xtu pyo u bi	40000
+発表日	ha xtu pi xyo u bi	40000
 指紋センサー	si mo nn se nn sa -	40000
 越境者	e xtu kyo u sya	40000
 越境者	e xtu kyo u si xya	40000
@@ -437624,6 +437594,8 @@ LNG船	e ru e nu zi - se nn	40000
 フーデリ	hu - de ri	40000
 フーデリ	HU - DE RI	40000
 頭師	ka si ra si	40000
+家捜し	ya sa ga si	40000
+家探し	ya sa ga si	40000
 掌部	syo u bu	40000
 掌部	si xyo u bu	40000
 パクり	pa ku ri	40000
@@ -437633,15 +437605,27 @@ LNG船	e ru e nu zi - se nn	40000
 正宮	si xyo u gu u	40000
 省印	syo u i nn	40000
 省印	si xyo u i nn	40000
+森づくり	mo ri du ku ri	40000
+森作り	mo ri du ku ri	40000
 超知能	tyo u ti no u	40000
 超知能	ti xyo u ti no u	40000
 塵雲	zi nn u nn	40000
+後付け設定	a to du ke se xtu te i	40000
+先を見る	sa ki wo mi ru	40000
+天弓	te nn kyu u	40000
+天弓	te nn ki xyu u	40000
 アンフェ	a nn fwe	40000
 アンフェ	A NN FWE	40000
 アンフェ	a nn fu xe	40000
 アンフェ	A NN FU XE	40000
+底を割る	so ko wo wa ru	40000
+精霊迎え	syo u ryo u mu ka e	40000
+精霊迎え	syo u ri xyo u mu ka e	40000
+精霊迎え	si xyo u ryo u mu ka e	40000
+精霊迎え	si xyo u ri xyo u mu ka e	40000
 三七草	sa nn si ti so u	40000
 山漆草	sa nn si ti so u	40000
+燦点	sa nn te nn	40000
 小行李	syo u ko u ri	40000
 小行李	si xyo u ko u ri	40000
 パワーチャージ	pa wa - tya - zi	40000
@@ -437653,6 +437637,52 @@ LNG船	e ru e nu zi - se nn	40000
 シャントリ	SYA NN TO RI	40000
 シャントリ	si xya nn to ri	40000
 シャントリ	SI XYA NN TO RI	40000
+笛声	te ki se i	40000
+星座早見盤	se i za ha ya mi ba nn	40000
+挟み紙	ha sa mi ga mi	40000
+ループエンジニアリング	ru - pu e nn zi ni a ri nn gu	40000
+ループエンジニアリング	RU - PU E NN ZI NI A RI NN GU	40000
+肺ペスト	ha i pe su to	40000
+ヌードストッキング	nu - do su to xtu ki nn gu	40000
+ヌードストッキング	NU - DO SU TO XTU KI NN GU	40000
+派生物	ha se i bu tu	40000
+火浣布	ka ka nn pu	40000
+蝦夷梟	e zo hu ku ro u	40000
+華北山椒	ka ho ku za nn syo u	40000
+華北山椒	ka ho ku za nn si xyo u	40000
+見守りカメラ	mi ma mo ri ka me ra	40000
+貝虫	ka i mu si	40000
+ホモビデオ	ho mo bi de o	40000
+ホモビデオ	HO MO BI DE O	40000
+ホモビ	ho mo bi	40000
+ホモビ	HO MO BI	40000
+後付け設定変更	a to du ke se xtu te i he nn ko u	40000
+相反性神経支配	so u ha nn se i si nn ke i si ha i	40000
+重力学	zyu u ryo ku ga ku	40000
+重力学	zyu u ri xyo ku ga ku	40000
+重力学	zi xyu u ryo ku ga ku	40000
+重力学	zi xyu u ri xyo ku ga ku	40000
+メガイラ	me ga i ra	40000
+メガイラ	ME GA I RA	40000
+チン騎士	ti nn ki si	40000
+アスカリ	a su ka ri	40000
+アスカリ	A SU KA RI	40000
+レンドリース	re nn do ri - su	40000
+レンドリース	RE NN DO RI - SU	40000
+泛藍連盟	ha nn ra nn re nn me i	40000
+泛緑連盟	ha nn ryo ku re nn me i	40000
+泛緑連盟	ha nn ri xyo ku re nn me i	40000
+笛声音	te ki se i o nn	40000
+満族	ma nn zo ku	40000
+副査	hu ku sa	40000
+デキサメタゾン	de ki sa me ta zo nn	40000
+デキサメタゾン	DE KI SA ME TA ZO NN	40000
+マスタースケジュール	ma su ta - su ke zyu - ru	40000
+マスタースケジュール	MA SU TA - SU KE ZYU - RU	40000
+マスタースケジュール	ma su ta - su ke zi xyu - ru	40000
+マスタースケジュール	MA SU TA - SU KE ZI XYU - RU	40000
+マスケ	ma su ke	40000
+マスケ	MA SU KE	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
