@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-10-15"
+version: "2026-10-22"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -2853,8 +2853,8 @@ Tバック	te xi - ba xtu ku	40002
 アーカイバ	A - KA I BA	40001
 アーカイバー	a - ka i ba -	40000
 アーカイバー	A - KA I BA -	40000
-アーカイブ	a - ka i bu	40000
-アーカイブ	A - KA I BU	40000
+アーカイブ	a - ka i bu	40002
+アーカイブ	A - KA I BU	40002
 アーガイル	a - ga i ru	40000
 アーガイル	A - GA I RU	40000
 アーガル	a - ga ru	40000
@@ -46014,8 +46014,6 @@ WASP	wa su pu	40000
 引きしぼる	hi ki si bo ru	40000
 引絞る	hi ki si bo ru	40000
 引き合う	hi ki a u	40000
-引合う	hi ki a u	40000
-引きあう	hi ki a u	40000
 引き合わせ	hi ki a wa se	40000
 引き込む	hi ki ko mu	40001
 引きこむ	hi ki ko mu	40000
@@ -81562,9 +81560,6 @@ WASP	wa su pu	40000
 盛り	mo ri	40000
 盛	mo ri	40000
 盛り合わせ	mo ri a wa se	40000
-盛合せ	mo ri a wa se	40000
-盛り合せ	mo ri a wa se	40000
-盛合わせ	mo ri a wa se	40000
 盛り込む	mo ri ko mu	40002
 盛込む	mo ri ko mu	40000
 盛り上がり	mo ri a ga ri	40002
@@ -84452,8 +84447,8 @@ WASP	wa su pu	40000
 喪主	mo si xyu	40002
 喪章	mo syo u	40001
 喪章	mo si xyo u	40001
-喪神	so u si nn	40000
 喪心	so u si nn	40000
+喪神	so u si nn	40000
 喪中	mo tyu u	40000
 喪中	mo ti xyu u	40000
 喪服	mo hu ku	40001
@@ -120926,7 +120921,6 @@ WASP	wa su pu	40000
 割印	wa ri i nn	40000
 割り印	wa ri i nn	40000
 割り勘	wa ri ka nn	40001
-割勘	wa ri ka nn	40000
 割り書き	wa ri ga ki	40000
 割書き	wa ri ga ki	40000
 割り込み	wa ri ko mi	40002
@@ -122181,7 +122175,6 @@ WASP	wa su pu	40000
 巻き起こす	ma ki o ko su	40001
 捲き起こす	ma ki o ko su	40000
 巻き添え	ma ki zo e	40002
-巻添え	ma ki zo e	40002
 巻き返し	ma ki ka e si	40002
 巻返し	ma ki ka e si	40000
 完工	ka nn ko u	40002
@@ -152024,7 +152017,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 起承転結	ki si xyo u te nn ke tu	40000
 起き抜け	o ki nu ke	40000
 起きぬけ	o ki nu ke	40000
-起抜け	o ki nu ke	40000
 起動機	ki do u ki	40000
 起きがけ	o ki ga ke	40000
 起き掛け	o ki ga ke	40000
@@ -271444,6 +271436,8 @@ ATICS	a te xi xtu ku su	40000
 エンタルピー	E NN TA RU PI -	40000
 エンチラーダ	e nn ti ra - da	40000
 エンチラーダ	E NN TI RA - DA	40000
+インチラーダ	i nn ti ra - da	40000
+インチラーダ	I NN TI RA - DA	40000
 エンテロキナーゼ	e nn te ro ki na - ze	40000
 エンテロキナーゼ	E NN TE RO KI NA - ZE	40000
 延齢草	e nn re i so u	40000
@@ -289585,13 +289579,9 @@ T字路	te xi - zi ro	40000
 慣れっこになる	na re xtu ko ni na ru	40000
 馴れっこになる	na re xtu ko ni na ru	40000
 埒もない	ra ti mo na i	40000
-埒も無い	ra ti mo na i	40000
 埓もない	ra ti mo na i	40000
-埓も無い	ra ti mo na i	40000
 埒もない	ra xtu ti mo na i	40000
-埒も無い	ra xtu ti mo na i	40000
 埓もない	ra xtu ti mo na i	40000
-埓も無い	ra xtu ti mo na i	40000
 新体詩	si nn ta i si	40000
 車外	sya ga i	40000
 車外	si xya ga i	40000
@@ -374540,7 +374530,6 @@ AYA世代	e - wa i e - se da i	40000
 二重発行	ni zyu u ha xtu ko u	40000
 二重発行	ni zi xyu u ha xtu ko u	40000
 首が回らない	ku bi ga ma wa ra na i	40000
-首がまわらない	ku bi ga ma wa ra na i	40000
 鯨骨生物群集	ge i ko tu se i bu tu gu nn syu u	40000
 鯨骨生物群集	ge i ko tu se i bu tu gu nn si xyu u	40000
 笑いのネタ	wa ra i no ne ta	40000
@@ -375985,14 +375974,6 @@ FEN	fu xe nn	40000
 喋喋	tyo u ti xyo u	40000
 喋喋	ti xyo u tyo u	40000
 喋喋	ti xyo u ti xyo u	40000
-諜々	tyo u tyo u	40000
-諜々	tyo u ti xyo u	40000
-諜々	ti xyo u tyo u	40000
-諜々	ti xyo u ti xyo u	40000
-諜諜	tyo u tyo u	40000
-諜諜	tyo u ti xyo u	40000
-諜諜	ti xyo u tyo u	40000
-諜諜	ti xyo u ti xyo u	40000
 ノーフリーランチ	no - hu ri - ra nn ti	40000
 ノーフリーランチ	NO - HU RI - RA NN TI	40000
 遊び毛	a so bi ge	40000
@@ -437614,6 +437595,7 @@ LNG船	e ru e nu zi - se nn	40000
 先を見る	sa ki wo mi ru	40000
 天弓	te nn kyu u	40000
 天弓	te nn ki xyu u	40000
+非童貞	hi do u te i	40000
 アンフェ	a nn fwe	40000
 アンフェ	A NN FWE	40000
 アンフェ	a nn fu xe	40000
@@ -437637,6 +437619,8 @@ LNG船	e ru e nu zi - se nn	40000
 シャントリ	SYA NN TO RI	40000
 シャントリ	si xya nn to ri	40000
 シャントリ	SI XYA NN TO RI	40000
+駐輪機	tyu u ri nn ki	40000
+駐輪機	ti xyu u ri nn ki	40000
 笛声	te ki se i	40000
 星座早見盤	se i za ha ya mi ba nn	40000
 挟み紙	ha sa mi ga mi	40000
@@ -437674,6 +437658,9 @@ LNG船	e ru e nu zi - se nn	40000
 泛緑連盟	ha nn ri xyo ku re nn me i	40000
 笛声音	te ki se i o nn	40000
 満族	ma nn zo ku	40000
+棚出し	ta na da si	40000
+棚だし	ta na da si	40000
+号線	go u se nn	40000
 副査	hu ku sa	40000
 デキサメタゾン	de ki sa me ta zo nn	40000
 デキサメタゾン	DE KI SA ME TA ZO NN	40000
@@ -437683,6 +437670,66 @@ LNG船	e ru e nu zi - se nn	40000
 マスタースケジュール	MA SU TA - SU KE ZI XYU - RU	40000
 マスケ	ma su ke	40000
 マスケ	MA SU KE	40000
+主位	syu i	40000
+主位	si xyu i	40000
+ホビーショップ	ho bi - syo xtu pu	40000
+ホビーショップ	HO BI - SYO XTU PU	40000
+ホビーショップ	ho bi - si xyo xtu pu	40000
+ホビーショップ	HO BI - SI XYO XTU PU	40000
+ウジョウジョ	u zyo u zyo	40000
+ウジョウジョ	U ZYO U ZYO	40000
+ウジョウジョ	u zyo u zi xyo	40000
+ウジョウジョ	U ZYO U ZI XYO	40000
+ウジョウジョ	u zi xyo u zyo	40000
+ウジョウジョ	U ZI XYO U ZYO	40000
+ウジョウジョ	u zi xyo u zi xyo	40000
+ウジョウジョ	U ZI XYO U ZI XYO	40000
+うじょうじょ	u zyo u zyo	40000
+うじょうじょ	u zyo u zi xyo	40000
+うじょうじょ	u zi xyo u zyo	40000
+うじょうじょ	u zi xyo u zi xyo	40000
+カリユガ	ka ri yu ga	40000
+カリユガ	KA RI YU GA	40000
+規定語	ki te i go	40000
+線維軟骨	se nn i na nn ko tu	40000
+繊維軟骨	se nn i na nn ko tu	40000
+ネット中毒	ne xtu to tyu u do ku	40000
+ネット中毒	ne xtu to ti xyu u do ku	40000
+卓布	ta ku hu	40000
+しぇからしか	sye ka ra si ka	40000
+しぇからしか	si xe ka ra si ka	40000
+忘備録	bo u bi ro ku	40000
+世界の警察官	se ka i no ke i sa tu ka nn	40000
+メガネウラ	me ga ne u ra	40000
+メガネウラ	ME GA NE U RA	40000
+肺癆	ha i ro u	40000
+カーサービス	ka - sa - bi su	40000
+カーサービス	KA - SA - BI SU	40000
+刀削麺	to u syo u me nn	40000
+刀削麺	to u si xyo u me nn	40000
+刀削麺	to u sa ku me nn	40000
+造園家	zo u e nn ka	40000
+植木師	u e ki si	40000
+網膜光凝固術	mo u ma ku hi ka ri gyo u ko zyu tu	40000
+網膜光凝固術	mo u ma ku hi ka ri gyo u ko zi xyu tu	40000
+網膜光凝固術	mo u ma ku hi ka ri gi xyo u ko zyu tu	40000
+網膜光凝固術	mo u ma ku hi ka ri gi xyo u ko zi xyu tu	40000
+光凝固術	hi ka ri gyo u ko zyu tu	40000
+光凝固術	hi ka ri gyo u ko zi xyu tu	40000
+光凝固術	hi ka ri gi xyo u ko zyu tu	40000
+光凝固術	hi ka ri gi xyo u ko zi xyu tu	40000
+網膜光凝固	mo u ma ku hi ka ri gyo u ko	40000
+網膜光凝固	mo u ma ku hi ka ri gi xyo u ko	40000
+刀削麺	da o sya o mye nn	40000
+刀削麺	da o sya o mi xe nn	40000
+刀削麺	da o si xya o mye nn	40000
+刀削麺	da o si xya o mi xe nn	40000
+刀削麺	da o sya o mi e nn	40000
+刀削麺	da o si xya o mi e nn	40000
+刀削麺	da o sya o me nn	40000
+刀削麺	da o si xya o me nn	40000
+陣構え	zi nn ga ma e	40000
+可観測性	ka ka nn so ku se i	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
@@ -438996,6 +439043,7 @@ Google	gu - gu ru	40000
 ジョナサン	ZYO NA SA NN	40000
 ジョナサン	zi xyo na sa nn	40000
 ジョナサン	ZI XYO NA SA NN	40000
+ジンギス汗	zi nn gi su ka nn	40000
 スーパーファミコン	su - pa - fwa mi ko nn	40000
 スーパーファミコン	SU - PA - FWA MI KO NN	40000
 スーパーファミコン	su - pa - fu xa mi ko nn	40000
@@ -439241,6 +439289,10 @@ Google	gu - gu ru	40000
 チリーン	TI RI - NN	40000
 チルット	ti ru xtu to	40000
 チルット	TI RU XTU TO	40000
+成吉思汗	ti nn gi su ha - nn	40000
+成吉思汗	ti nn gi su ha nn	40000
+成吉思汗	ti nn gi su ka nn	40000
+成吉思汗	zi nn gi su ha nn	40000
 ツィゴイネルワイゼン	tsi go i ne ru wa i ze nn	40000
 ツィゴイネルワイゼン	TSI GO I NE RU WA I ZE NN	40000
 ツィゴイネルワイゼン	tu xi go i ne ru wa i ze nn	40000
