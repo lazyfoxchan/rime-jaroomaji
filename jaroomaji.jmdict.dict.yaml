@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-10-22"
+version: "2026-10-29"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -58658,8 +58658,6 @@ WASP	wa su pu	40000
 靴篦	ku tu be ra	40000
 靴墨	ku tu zu mi	40000
 靴磨き	ku tu mi ga ki	40000
-靴みがき	ku tu mi ga ki	40000
-靴磨	ku tu mi ga ki	40000
 凹み	ku bo mi	40002
 窪み	ku bo mi	40002
 凹み	he ko mi	40002
@@ -64136,8 +64134,7 @@ WASP	wa su pu	40000
 合す	a wa su	40000
 合わせ	a wa se	40000
 合わせる	a wa se ru	40002
-併せる	a wa se ru	40002
-合せる	a wa se ru	40000
+併せる	a wa se ru	40000
 合わせ鏡	a wa se ka ga mi	40000
 あわせ鏡	a wa se ka ga mi	40000
 合せ鏡	a wa se ka ga mi	40000
@@ -96201,7 +96198,6 @@ WASP	wa su pu	40000
 原	ba ra	40000
 儕	ba ra	40000
 輩	ya ka ra	40001
-族	ya ka ra	40000
 輩出	ha i syu tu	40002
 輩出	ha i si xyu tu	40002
 配る	ku ba ru	40002
@@ -99847,9 +99843,6 @@ WASP	wa su pu	40000
 付上がる	tu ke a ga ru	40000
 付け狙う	tu ke ne ra u	40000
 つけ狙う	tu ke ne ra u	40000
-付けねらう	tu ke ne ra u	40000
-付狙う	tu ke ne ra u	40000
-附け狙う	tu ke ne ra u	40000
 付け足す	tu ke ta su	40002
 付け替え	tu ke ka e	40000
 付替え	tu ke ka e	40000
@@ -109819,8 +109812,6 @@ WASP	wa su pu	40000
 藁半紙	wa ra ba nn si	40000
 ワラ半紙	wa ra ba nn si	40000
 藁葺き	wa ra bu ki	40000
-藁葺	wa ra bu ki	40000
-藁ぶき	wa ra bu ki	40000
 藁苞	wa ra du to	40000
 蕨	wa ra bi	40001
 椀	wa nn	40002
@@ -151278,6 +151269,7 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 塩基性	e nn ki se i	40000
 塩基度	e nn ki do	40000
 塩魚	si o za ka na	40000
+塩肴	si o za ka na	40000
 塩税	e nn ze i	40000
 塩せんべい	si o se nn be i	40000
 塩煎餅	si o se nn be i	40000
@@ -192606,7 +192598,7 @@ QT延長症候群	ki xyu - te xi - e nn ti xyo u si xyo u ko u gu nn	40000
 グロい	gu ro i	40000
 ぐろい	gu ro i	40000
 参加費	sa nn ka hi	40000
-それなのに	so re na no ni	40000
+それなのに	so re na no ni	40002
 だが	da ga	40002
 よいしょ	yo i syo	40000
 よいしょ	yo i si xyo	40000
@@ -217779,7 +217771,6 @@ NHK受信料	e nu e i ti ke - zi xyu si nn ri xyo u	40000
 ラクシュミ	RA KU SYU MI	40000
 ラクシュミ	ra ku si xyu mi	40000
 ラクシュミ	RA KU SI XYU MI	40000
-靴を磨く	ku tu wo mi ga ku	40000
 山獏	ya ma ba ku	40000
 山貘	ya ma ba ku	40000
 マレー獏	ma re - ba ku	40000
@@ -299578,12 +299569,10 @@ Xマス	e xtu ku su ma su	40000
 床板珊瑚類	si xyo u ba nn sa nn go ru i	40000
 居処	i do	40000
 居り所	o ri do ko ro	40000
-強情っ張り	go u zyo u xtu pa ri	40000
-強情っ張り	go u zi xyo u xtu pa ri	40000
 強情っぱり	go u zyo u xtu pa ri	40000
 強情っぱり	go u zi xyo u xtu pa ri	40000
-強情張	go u zyo u xtu pa ri	40000
-強情張	go u zi xyo u xtu pa ri	40000
+強情っ張り	go u zyo u xtu pa ri	40000
+強情っ張り	go u zi xyo u xtu pa ri	40000
 剛情張	go u zyo u xtu pa ri	40000
 剛情張	go u zi xyo u xtu pa ri	40000
 ハーベスト	ha - be su to	40000
@@ -437688,6 +437677,9 @@ LNG船	e ru e nu zi - se nn	40000
 うじょうじょ	u zyo u zi xyo	40000
 うじょうじょ	u zi xyo u zyo	40000
 うじょうじょ	u zi xyo u zi xyo	40000
+エンゲージメントベイト	e nn ge - zi me nn to be i to	40000
+エンゲージメントベイト	E NN GE - ZI ME NN TO BE I TO	40000
+エンゲージメント稼ぎ	e nn ge - zi me nn to ka se gi	40000
 カリユガ	ka ri yu ga	40000
 カリユガ	KA RI YU GA	40000
 規定語	ki te i go	40000
@@ -437699,12 +437691,16 @@ LNG船	e ru e nu zi - se nn	40000
 しぇからしか	sye ka ra si ka	40000
 しぇからしか	si xe ka ra si ka	40000
 忘備録	bo u bi ro ku	40000
+急からしい	se ka ra si i	40000
+樽生ビール	ta ru na ma bi - ru	40000
 世界の警察官	se ka i no ke i sa tu ka nn	40000
 メガネウラ	me ga ne u ra	40000
 メガネウラ	ME GA NE U RA	40000
 肺癆	ha i ro u	40000
 カーサービス	ka - sa - bi su	40000
 カーサービス	KA - SA - BI SU	40000
+足治療	a si ti ryo u	40000
+足治療	a si ti ri xyo u	40000
 刀削麺	to u syo u me nn	40000
 刀削麺	to u si xyo u me nn	40000
 刀削麺	to u sa ku me nn	40000
@@ -437730,6 +437726,72 @@ LNG船	e ru e nu zi - se nn	40000
 刀削麺	da o si xya o me nn	40000
 陣構え	zi nn ga ma e	40000
 可観測性	ka ka nn so ku se i	40000
+ポドロジー	po do ro zi -	40000
+ポドロジー	PO DO RO ZI -	40000
+フットケア	hu xtu to ke a	40000
+フットケア	HU XTU TO KE A	40000
+族	ya ka ra	40000
+嫌気性消化	ke nn ki se i syo u ka	40000
+嫌気性消化	ke nn ki se i si xyo u ka	40000
+糖尿病性昏睡	to u nyo u byo u se i ko nn su i	40000
+糖尿病性昏睡	to u nyo u bi xyo u se i ko nn su i	40000
+糖尿病性昏睡	to u ni xyo u byo u se i ko nn su i	40000
+糖尿病性昏睡	to u ni xyo u bi xyo u se i ko nn su i	40000
+維摩	yu i ma	40000
+中華台北	tyu u ka ta i pe i	40000
+中華台北	ti xyu u ka ta i pe i	40000
+視野検査	si ya ke nn sa	40000
+賑わしい	ni gi wa si i	40000
+小児恐怖症	syo u ni kyo u hu syo u	40000
+小児恐怖症	syo u ni kyo u hu si xyo u	40000
+小児恐怖症	syo u ni ki xyo u hu syo u	40000
+小児恐怖症	syo u ni ki xyo u hu si xyo u	40000
+小児恐怖症	si xyo u ni kyo u hu syo u	40000
+小児恐怖症	si xyo u ni kyo u hu si xyo u	40000
+小児恐怖症	si xyo u ni ki xyo u hu syo u	40000
+小児恐怖症	si xyo u ni ki xyo u hu si xyo u	40000
+人形恐怖症	ni nn gyo u kyo u hu syo u	40000
+人形恐怖症	ni nn gyo u kyo u hu si xyo u	40000
+人形恐怖症	ni nn gyo u ki xyo u hu syo u	40000
+人形恐怖症	ni nn gyo u ki xyo u hu si xyo u	40000
+人形恐怖症	ni nn gi xyo u kyo u hu syo u	40000
+人形恐怖症	ni nn gi xyo u kyo u hu si xyo u	40000
+人形恐怖症	ni nn gi xyo u ki xyo u hu syo u	40000
+人形恐怖症	ni nn gi xyo u ki xyo u hu si xyo u	40000
+備中鍬	bi xtu tyu u gu wa	40000
+備中鍬	bi xtu ti xyu u gu wa	40000
+接触皮膚炎	se xtu syo ku hi hu e nn	40000
+接触皮膚炎	se xtu si xyo ku hi hu e nn	40000
+脳萎縮	no u i syu ku	40000
+脳萎縮	no u i si xyu ku	40000
+ファルシオン	fwa ru si o nn	40000
+ファルシオン	FWA RU SI O NN	40000
+ファルシオン	fu xa ru si o nn	40000
+ファルシオン	FU XA RU SI O NN	40000
+イグナイター	i gu na i ta -	40000
+イグナイター	I GU NA I TA -	40000
+イグナイタ	i gu na i ta	40000
+イグナイタ	I GU NA I TA	40000
+それだのに	so re da no ni	40000
+ネポベイビー	ne po be i bi -	40000
+ネポベイビー	NE PO BE I BI -	40000
+片荷	ka ta ni	40000
+セクシーアイドル	se ku si - a i do ru	40000
+セクシーアイドル	SE KU SI - A I DO RU	40000
+稟申	ri nn si nn	40000
+稟申	hi nn si nn	40000
+政治将校	se i zi syo u ko u	40000
+政治将校	se i zi si xyo u ko u	40000
+中露印	tyu u ro i nn	40000
+中露印	ti xyu u ro i nn	40000
+中ロ印	tyu u ro i nn	40000
+中ロ印	ti xyu u ro i nn	40000
+メガテリウム	me ga te ri u mu	40000
+メガテリウム	ME GA TE RI U MU	40000
+視線恐怖症	si se nn kyo u hu syo u	40000
+視線恐怖症	si se nn kyo u hu si xyo u	40000
+視線恐怖症	si se nn ki xyo u hu syo u	40000
+視線恐怖症	si se nn ki xyo u hu si xyo u	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
