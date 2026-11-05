@@ -10,7 +10,7 @@
 
 ---
 name: jaroomaji.jmdict
-version: "2026-10-29"
+version: "2026-11-05"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -28556,8 +28556,6 @@ NOR	no a	40000
 バケット	BA KE XTU TO	40000
 バザー	ba za -	40002
 バザー	BA ZA -	40002
-バザール	ba za - ru	40002
-バザール	BA ZA - RU	40002
 バジェット	ba zye xtu to	40000
 バジェット	BA ZYE XTU TO	40000
 バジェット	ba zi xe xtu to	40000
@@ -47978,6 +47976,8 @@ WASP	wa su pu	40000
 黄道帯	ko u do u ta i	40000
 黄道面	ko u do u me nn	40000
 黄白	ko u ha ku	40000
+黄白	o u bya ku	40000
+黄白	o u bi xya ku	40000
 黄白色	o u ha ku syo ku	40000
 黄白色	o u ha ku si xyo ku	40000
 黄白色	ko u ha ku syo ku	40000
@@ -55681,7 +55681,6 @@ WASP	wa su pu	40000
 牛歩戦術	gi xyu u ho se nn zi xyu tu	40000
 牛蒡	go bo u	40000
 牛蒡	go nn bo	40000
-牛蒡	u ma hu bu ki	40000
 去る	sa ru	40002
 避る	sa ru	40000
 去月	kyo ge tu	40000
@@ -96331,7 +96330,6 @@ WASP	wa su pu	40000
 売家	u ri i e	40000
 売り広げる	u ri hi ro ge ru	40000
 売り込み	u ri ko mi	40002
-売込み	u ri ko mi	40000
 売り込む	u ri ko mu	40002
 売り出す	u ri da su	40002
 売出す	u ri da su	40000
@@ -104034,8 +104032,6 @@ WASP	wa su pu	40000
 復	ma ta	40000
 又しても	ma ta si te mo	40000
 又と	ma ta to	40000
-又とない	ma ta to na i	40000
-またと無い	ma ta to na i	40000
 又と無い	ma ta to na i	40000
 またの日	ma ta no hi	40000
 又の日	ma ta no hi	40000
@@ -123231,10 +123227,10 @@ WASP	wa su pu	40000
 卵大	ta ma go da i	40000
 適時	te ki zi	40002
 手縫い	te nu i	40000
-手透き	te su ki	40000
-手隙	te su ki	40000
 手すき	te su ki	40000
+手隙	te su ki	40000
 手空き	te su ki	40000
+手透き	te su ki	40000
 手空き	te a ki	40000
 手明き	te a ki	40000
 等張	to u tyo u	40000
@@ -149324,8 +149320,6 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 寄り身	yo ri mi	40000
 寄り倒し	yo ri ta o si	40001
 寄せ書き	yo se ga ki	40001
-寄書き	yo se ga ki	40000
-寄書	yo se ga ki	40000
 寄留地	ki ryu u ti	40000
 寄留地	ki ri xyu u ti	40000
 寄留者	ki ryu u sya	40000
@@ -161524,11 +161518,9 @@ X線撮影	e xtu ku su se nn sa tu e i	40000
 懐が淋しい	hu to ko ro ga sa bi si i	40000
 蒲団皮	hu to nn ga wa	40000
 布団皮	hu to nn ga wa	40000
-升形	ma su ga ta	40000
 枡形	ma su ga ta	40000
+升形	ma su ga ta	40000
 斗形	ma su ga ta	40000
-桝形	ma su ga ta	40000
-斗形	to ga ta	40000
 道を聞く	mi ti wo ki ku	40000
 道を訊く	mi ti wo ki ku	40000
 身を守る	mi wo ma mo ru	40000
@@ -197952,7 +197944,7 @@ C＋＋言語	si - pu ra su pu ra su ge nn go	40000
 ヘタレ	HE TA RE	40000
 へたれ	he ta re	40000
 満ち満ちる	mi ti mi ti ru	40000
-充満る	mi ti mi ti ru	40000
+充ち満ちる	mi ti mi ti ru	40000
 入満	i ru ma nn	40000
 伊留満	i ru ma nn	40000
 由婁漫	i ru ma nn	40000
@@ -201388,8 +201380,8 @@ Wimdows	u i nn do u zu	40000
 集客交流	si xyu u kya ku ko u ri xyu u	40000
 集客交流	si xyu u ki xya ku ko u ryu u	40000
 集客交流	si xyu u ki xya ku ko u ri xyu u	40000
-無い袖は振れぬ	na i so de ha hu re nu	40000
-ない袖は振れぬ	na i so de ha hu re nu	40000
+無い袖は振れない	na i so de ha hu re na i	40000
+ない袖は振れない	na i so de ha hu re na i	40000
 青緑	a o mi do ri	40000
 タブロー	ta bu ro -	40000
 タブロー	TA BU RO -	40000
@@ -376052,6 +376044,8 @@ FEN	fu xe nn	40000
 悔い無し	ku i na si	40000
 ぴょいと	pyo i to	40000
 ぴょいと	pi xyo i to	40000
+ピョイと	pyo i to	40000
+ピョイと	pi xyo i to	40000
 説教臭い	se xtu kyo u ku sa i	40000
 説教臭い	se xtu ki xyo u ku sa i	40000
 説教くさい	se xtu kyo u ku sa i	40000
@@ -437694,6 +437688,7 @@ LNG船	e ru e nu zi - se nn	40000
 急からしい	se ka ra si i	40000
 樽生ビール	ta ru na ma bi - ru	40000
 世界の警察官	se ka i no ke i sa tu ka nn	40000
+節がある	hu si ga a ru	40000
 メガネウラ	me ga ne u ra	40000
 メガネウラ	ME GA NE U RA	40000
 肺癆	ha i ro u	40000
@@ -437740,6 +437735,7 @@ LNG船	e ru e nu zi - se nn	40000
 維摩	yu i ma	40000
 中華台北	tyu u ka ta i pe i	40000
 中華台北	ti xyu u ka ta i pe i	40000
+驚き屋	o do ro ki ya	40000
 視野検査	si ya ke nn sa	40000
 賑わしい	ni gi wa si i	40000
 小児恐怖症	syo u ni kyo u hu syo u	40000
@@ -437775,9 +437771,12 @@ LNG船	e ru e nu zi - se nn	40000
 それだのに	so re da no ni	40000
 ネポベイビー	ne po be i bi -	40000
 ネポベイビー	NE PO BE I BI -	40000
+轟風	go u hu u	40000
 片荷	ka ta ni	40000
 セクシーアイドル	se ku si - a i do ru	40000
 セクシーアイドル	SE KU SI - A I DO RU	40000
+お宮入り	o mi ya i ri	40000
+御宮入り	o mi ya i ri	40000
 稟申	ri nn si nn	40000
 稟申	hi nn si nn	40000
 政治将校	se i zi syo u ko u	40000
@@ -437792,6 +437791,90 @@ LNG船	e ru e nu zi - se nn	40000
 視線恐怖症	si se nn kyo u hu si xyo u	40000
 視線恐怖症	si se nn ki xyo u hu syo u	40000
 視線恐怖症	si se nn ki xyo u hu si xyo u	40000
+観戦武官	ka nn se nn bu ka nn	40000
+仲介人	tyu u ka i ni nn	40000
+仲介人	ti xyu u ka i ni nn	40000
+国家理性	ko xtu ka ri se i	40000
+判教	ha nn gyo u	40000
+判教	ha nn gi xyo u	40000
+判教	ha nn kyo u	40000
+判教	ha nn ki xyo u	40000
+円教	e nn gyo u	40000
+円教	e nn gi xyo u	40000
+円教	e nn kyo u	40000
+円教	e nn ki xyo u	40000
+静水骨格	se i su i ko xtu ka ku	40000
+静水	se i su i	40000
+降下猟兵	ko u ka ryo u he i	40000
+降下猟兵	ko u ka ri xyo u he i	40000
+打通	da tu u	40000
+取りこぼし	to ri ko bo si	40000
+取り零し	to ri ko bo si	40000
+縦深	zyu u si nn	40000
+縦深	zi xyu u si nn	40000
+人目をはばかる	hi to me wo ha ba ka ru	40000
+人目を憚る	hi to me wo ha ba ka ru	40000
+従兵	zyu u he i	40000
+従兵	zi xyu u he i	40000
+猟兵	ryo u he i	40000
+猟兵	ri xyo u he i	40000
+ヘッドショット	he xtu do syo xtu to	40000
+ヘッドショット	HE XTU DO SYO XTU TO	40000
+ヘッドショット	he xtu do si xyo xtu to	40000
+ヘッドショット	HE XTU DO SI XYO XTU TO	40000
+モノコック	mo no ko xtu ku	40000
+モノコック	MO NO KO XTU KU	40000
+毛細気管	mo u sa i ki ka nn	40000
+世に出す	yo ni da su	40000
+廠	syo u	40000
+廠	si xyo u	40000
+有視界	yu u si ka i	40000
+年を経る	to si wo he ru	40000
+ドカ貧	do ka hi nn	40000
+どか貧	do ka hi nn	40000
+種銭	ta ne se nn	40000
+石もて追われる	i si mo te o wa re ru	40000
+何をおいても	na ni wo o i te mo	40000
+何を措いても	na ni wo o i te mo	40000
+檣灯	syo u to u	40000
+檣灯	si xyo u to u	40000
+バザール	ba za - ru	40002
+バザール	BA ZA - RU	40002
+軽希土類元素	ke i ki do ru i ge nn so	40000
+重希土類元素	zyu u ki do ru i ge nn so	40000
+重希土類元素	zi xyu u ki do ru i ge nn so	40000
+旧居留地	kyu u kyo ryu u ti	40000
+旧居留地	kyu u kyo ri xyu u ti	40000
+旧居留地	kyu u ki xyo ryu u ti	40000
+旧居留地	kyu u ki xyo ri xyu u ti	40000
+旧居留地	ki xyu u kyo ryu u ti	40000
+旧居留地	ki xyu u kyo ri xyu u ti	40000
+旧居留地	ki xyu u ki xyo ryu u ti	40000
+旧居留地	ki xyu u ki xyo ri xyu u ti	40000
+きときと	ki to ki to	40000
+おはようおかえり	o ha yo u o ka e ri	40000
+味ない	a zi na i	40000
+味無い	a zi na i	40000
+阿字観	a zi ka nn	40000
+一念三千	i ti ne nn sa nn ze nn	40000
+十住心	zyu u zyu u si nn	40000
+十住心	zyu u zi xyu u si nn	40000
+十住心	zi xyu u zyu u si nn	40000
+十住心	zi xyu u zi xyu u si nn	40000
+因陀羅網	i nn da ra mo u	40000
+主人公補正	syu zi nn ko u ho se i	40000
+主人公補正	si xyu zi nn ko u ho se i	40000
+斗形	to ga ta	40000
+枓	to ga ta	40000
+人生訓	zi nn se i ku nn	40000
+総受け	so u u ke	40000
+キャラ立ち	kya ra da ti	40000
+キャラ立ち	ki xya ra da ti	40000
+アイレベル	a i re be ru	40000
+アイレベル	A I RE BE RU	40000
+逆ハーレム	gya ku ha - re mu	40000
+逆ハーレム	gi xya ku ha - re mu	40000
+水力学的骨格	su i ri ki ga ku te ki ko xtu ka ku	40000
 JMdict	zye i e mu dhi ku to	40000
 JMdict	zye i e mu de xi ku to	40000
 JMdict	zi xe i e mu dhi ku to	40000
